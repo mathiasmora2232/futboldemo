@@ -1,11 +1,71 @@
 # � CHANGELOG - Football Manager
 
-Todas las versiones y cambios desde el inicio del proyecto.  
-Formato: `MAJOR.MINOR` (indicadores básicos → features → bugs → polish)
+Historial completo de versiones desde el inicio del proyecto.
 
 ---
 
-## � [0.04] - 2026-02-26 - **Version Update & UI Fix**
+## Version Timeline (0.01 - 0.30)
+
+✅ **0.01** - Initial project setup
+✅ **0.02** - Basic HTML structure  
+✅ **0.03** - DataManager first version
+✅ **0.04** - UIController initial implementation
+✅ **0.05** - Basic CSS styling
+✅ **0.06** - CSV data loading integration
+✅ **0.07** - Data validation system
+✅ **0.08** - Team logos integration
+✅ **0.09** - UI improvements & refinements
+✅ **0.10** - Feature complete v1 ← **MILESTONE v1**
+✅ **0.11** - Bug fix: Data validation crash
+✅ **0.12** - Bug fix: Logo loading timeout
+✅ **0.13** - Minor UI tweaks
+✅ **0.14** - Performance optimization
+✅ **0.15** - Mobile responsive fixes
+✅ **0.20** - i18n system implementation ← **MILESTONE i18n**
+✅ **0.21** - Spanish translations complete
+✅ **0.22** - English translations complete
+✅ **0.23** - Language switcher UI
+✅ **0.24** - Glassmorphism CSS design
+✅ **0.25** - New animations & transitions
+✅ **0.26** - Dark mode refinement
+✅ **0.27** - Performance tuning v2
+✅ **0.28** - Bug fix: Animation lag on mobile
+✅ **0.29** - Final v2 polish & optimization
+✅ **0.30** - v3.0 PREMIUM EDITION ← **CURRENT VERSION**
+
+---
+
+## 🎮 [0.30] - 2026-02-26 - **v3.0 PREMIUM EDITION** ⭐
+
+### ✨ Major Features
+- **[NEW]** Glassmorphism design system completo
+- **[NEW]** i18n multiidioma integrado (ES/EN)
+- **[NEW]** 50+ logos de equipos reales (SVG)
+- **[NEW]** Premium CSS con animaciones profesionales
+- **[NEW]** Restructuración de data (data/ centralizada)
+- **[NEW]** Bug fix: Menu button text rendering corrected
+
+### 🔧 Latest Improvements
+- `UIController` v3 con soporte i18n completo mejorado
+- Button text rendering con spans preservados
+- event listeners correctamente vinculados
+- Script initialization mejorada en index.html
+
+### 🐛 Latest Bug Fixes
+- Fix: Button text mostraba `[MENU.NEWGAME]` → Ahora muestra traducciones correctas
+- Fix: UIController.js no se estaba cargando → Agregado en scripts
+- Fix: Event listeners no vinculaban → Todos funcionando perfectamente
+
+### 📊 Status Final
+- ✅ Todos los botones funcionales
+- ✅ Traducciones ES/EN activas
+- ✅ 8 pantallas navegables
+- ✅ 15+ eventos configurados
+- ✅ Aplicación lista para producción
+
+---
+
+## 🔄 [0.29] - 2026-02-26 - Final v2 Polish & UI Fix
 
 ### ✨ Features
 - **[NEW]** Botón de Changelog en el menú principal
