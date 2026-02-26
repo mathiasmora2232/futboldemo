@@ -64,6 +64,10 @@ class UIController {
       // Inicializar elementos específicos de pantallas
       if (screenName === 'leagueSelection') {
         setTimeout(() => this.initLeagueSelection(), 100);
+      } else if (screenName === 'standings') {
+        setTimeout(() => this.renderStandings(), 100);
+      } else if (screenName === 'teamView') {
+        setTimeout(() => this.renderTeamView(), 100);
       }
     }
   }
@@ -72,35 +76,30 @@ class UIController {
    * Actualiza todos los textos de UI según idioma
    */
   updateUITexts() {
-    // Main Menu
+    // Main Menu - Actualizar directamente sin buscar span
     const btnNewGame = document.getElementById('btn-new-game');
-    if (btnNewGame) {
-      const span = btnNewGame.querySelector('span');
-      if (span) span.textContent = '▶ ' + i18n.t('menu.newGame');
+    if (btnNewGame && btnNewGame.querySelector('span')) {
+      btnNewGame.querySelector('span').textContent = '▶ Nueva Partida';
     }
 
     const btnLoadGame = document.getElementById('btn-load-game');
-    if (btnLoadGame) {
-      const span = btnLoadGame.querySelector('span');
-      if (span) span.textContent = '📂 ' + i18n.t('menu.loadGame');
+    if (btnLoadGame && btnLoadGame.querySelector('span')) {
+      btnLoadGame.querySelector('span').textContent = '📂 Cargar Partida';
     }
 
     const btnSettings = document.getElementById('btn-settings');
-    if (btnSettings) {
-      const span = btnSettings.querySelector('span');
-      if (span) span.textContent = '⚙ ' + i18n.t('menu.settings');
+    if (btnSettings && btnSettings.querySelector('span')) {
+      btnSettings.querySelector('span').textContent = '⚙ Ajustes';
     }
 
     const btnChangelog = document.getElementById('btn-changelog');
-    if (btnChangelog) {
-      const span = btnChangelog.querySelector('span');
-      if (span) span.textContent = '📝 ' + 'Changelog';
+    if (btnChangelog && btnChangelog.querySelector('span')) {
+      btnChangelog.querySelector('span').textContent = '📝 Changelog';
     }
 
     const btnExit = document.getElementById('btn-exit');
-    if (btnExit) {
-      const span = btnExit.querySelector('span');
-      if (span) span.textContent = '🔴 ' + i18n.t('menu.exit');
+    if (btnExit && btnExit.querySelector('span')) {
+      btnExit.querySelector('span').textContent = '🔴 Salir';
     }
   }
 
@@ -224,26 +223,9 @@ class UIController {
   }
 
   /**
-   * Inicia la selección de ligas con interfaz mejorada
+   * Inicia la selección de ligas con interfaz mejorada - Dinámico desde JSON
    */
   initLeagueSelection() {
-    const leaguesData = [
-      { flag: '🇬🇧', country: 'INGLATERRA', leagues: [
-        { id: 'PL', name: 'Premier League' },
-        { id: 'CH', name: 'Championship' }
-      ]},
-      { flag: '🇪🇸', country: 'ESPAÑA', leagues: [
-        { id: 'LL', name: 'La Liga' }
-      ]},
-      { flag: '🇲🇽', country: 'MÉXICO', leagues: [
-        { id: 'LMX', name: 'Liga MX' }
-      ]},
-      { flag: '🇪🇨', country: 'ECUADOR', leagues: [
-        { id: 'LP', name: 'LigaPro' },
-        { id: 'SB', name: 'Serie B' }
-      ]}
-    ];
-
     const container = document.getElementById('leagues-container');
     if (!container) return;
 
@@ -253,7 +235,9 @@ class UIController {
     container.style.gap = '20px';
     container.style.marginBottom = '30px';
 
-    leaguesData.forEach(country => {
+    const allLeagues = this.dataManager.getLeagues();
+
+    allLeagues.forEach(league => {
       const countrySection = document.createElement('div');
       countrySection.className = 'glass-card';
       countrySection.style.padding = '25px';
@@ -261,16 +245,16 @@ class UIController {
       countrySection.style.transition = 'all 0.3s ease';
       countrySection.style.borderRadius = '16px';
 
-      let leaguesHTML = `<h3 style="margin: 0 0 20px 0; font-size: 1.3rem;">${country.flag} ${country.country}</h3>`;
+      const flagEmoji = this.getCountryEmoji(league.country || league.id);
       
-      country.leagues.forEach(league => {
-        leaguesHTML += `
-          <label style="display: flex; align-items: center; gap: 12px; margin: 12px 0; cursor: pointer; font-size: 1rem;">
-            <input type="checkbox" class="league-checkbox-new" value="${league.id}" style="width: 18px; height: 18px; cursor: pointer;">
-            <span>${league.name}</span>
-          </label>
-        `;
-      });
+      let leaguesHTML = `<h3 style="margin: 0 0 20px 0; font-size: 1.3rem;">${flagEmoji} ${(league.country || league.name).toUpperCase()}</h3>`;
+      
+      if (league.teams && league.teams.length > 0) {
+        leaguesHTML += `<label style="display: flex; align-items: center; gap: 12px; margin: 12px 0; cursor: pointer; font-size: 1rem;">
+          <input type="checkbox" class="league-checkbox-new" value="${league.id}" style="width: 18px; height: 18px; cursor: pointer;">
+          <span><strong>${league.name}</strong> (${league.teams.length} equipos)</span>
+        </label>`;
+      }
 
       countrySection.innerHTML = leaguesHTML;
       
@@ -290,6 +274,27 @@ class UIController {
 
     // Recargar event listeners
     this.attachEventListeners();
+  }
+
+  /**
+   * Obtiene emoji por país
+   */
+  getCountryEmoji(countryName) {
+    const emojiMap = {
+      'Germany': '🇩🇪', 'Alemania': '🇩🇪', 'DE': '🇩🇪',
+      'England': '🇬🇧', 'England': '🇬🇧', 'PL': '🇬🇧',  // Poland - Ekstraklasa
+      'Poland': '🇵🇱', 'Polonia': '🇵🇱',
+      'Netherlands': '🇳🇱', 'Países Bajos': '🇳🇱', 'NL': '🇳🇱',
+      'Spain': '🇪🇸', 'España': '🇪🇸', 'LL': '🇪🇸',
+      'Italy': '🇮🇹', 'Italia': '🇮🇹', 'SA': '🇮🇹',
+      'France': '🇫🇷', 'Francia': '🇫🇷', 'L1': '🇫🇷',
+      'Portugal': '🇵🇹', 'Portugal': '🇵🇹',
+      'Turkey': '🇹🇷', 'Turquía': '🇹🇷',
+      'Belgium': '🇧🇪', 'Bélgica': '🇧🇪',
+      'Mexico': '🇲🇽', 'México': '🇲🇽', 'LMX': '🇲🇽',
+      'Ecuador': '🇪🇨', 'Ecuador': '🇪🇨', 'LP': '🇪🇨', 'SB': '🇪🇨',
+    };
+    return emojiMap[countryName] || '⚽';
   }
 
   /**
@@ -661,6 +666,121 @@ class UIController {
       this.saveSystem.deleteSave(slotNumber);
       this.updateLoadGameUI();
     }
+  }
+
+  /**
+   * Renderiza la tabla de posiciones de la liga
+   */
+  renderStandings() {
+    const container = document.getElementById('standings-content');
+    if (!container) return;
+
+    if (!this.gameState) {
+      container.innerHTML = '<p>No hay partida activa</p>';
+      return;
+    }
+
+    const leagueId = this.gameState.metadata.selectedLeague;
+    const league = this.dataManager.getLeagues().find(l => l.id === leagueId);
+    const standings = this.leagueManager.generateStandings(leagueId);
+
+    let html = `<div style="padding: 20px;">
+      <h2>⚽ ${league?.name || leagueId} - Jornada ${this.gameState.metadata.gameweek}</h2>
+      <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+        <thead>
+          <tr style="background: rgba(255,255,255,0.1); border-bottom: 2px solid #3338ff;">
+            <th style="padding: 12px; text-align: left;">POS</th>
+            <th style="padding: 12px; text-align: left;">EQUIPO</th>
+            <th style="padding: 12px; text-align: center;">JJ</th>
+            <th style="padding: 12px; text-align: center;">G</th>
+            <th style="padding: 12px; text-align: center;">E</th>
+            <th style="padding: 12px; text-align: center;">P</th>
+            <th style="padding: 12px; text-align: center;">GF</th>
+            <th style="padding: 12px; text-align: center;">GC</th>
+            <th style="padding: 12px; text-align: center;">DG</th>
+            <th style="padding: 12px; text-align: center;">PTS</th>
+          </tr>
+        </thead>
+        <tbody>`;
+
+    standings.forEach((team, index) => {
+      const rowColor = index < 4 ? 'rgba(46, 204, 113, 0.15)' : 
+                      index < 6 ? 'rgba(155, 89, 182, 0.15)' : 
+                      index >= standings.length - 3 ? 'rgba(231, 76, 60, 0.15)' : 'transparent';
+      
+      html += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.1); background: ${rowColor};">
+        <td style="padding: 12px; text-align: center; font-weight: bold;">${index + 1}</td>
+        <td style="padding: 12px;">${this.getTeamEmoji(team.name)} ${team.name}</td>
+        <td style="padding: 12px; text-align: center;">${team.played}</td>
+        <td style="padding: 12px; text-align: center; color: #2ecc71;">${team.won}</td>
+        <td style="padding: 12px; text-align: center;">${team.drawn}</td>
+        <td style="padding: 12px; text-align: center; color: #e74c3c;">${team.lost}</td>
+        <td style="padding: 12px; text-align: center;">${team.goalsFor}</td>
+        <td style="padding: 12px; text-align: center;">${team.goalsAgainst}</td>
+        <td style="padding: 12px; text-align: center; font-weight: bold;">${team.goalDifference > 0 ? '+' : ''}${team.goalDifference}</td>
+        <td style="padding: 12px; text-align: center; font-weight: bold; font-size: 1.1rem;">${team.points}</td>
+      </tr>`;
+    });
+
+    html += `</tbody></table>
+      <div style="margin-top: 30px; text-align: center;">
+        <button class="modern-btn" onclick="uiController.showScreen('mainGame')" style="padding: 12px 30px; font-size: 1rem;">
+          ◀ Volver
+        </button>
+      </div>
+    </div>`;
+
+    container.innerHTML = html;
+  }
+
+  /**
+   * Renderiza la plantilla del equipo
+   */
+  renderTeamView() {
+    const container = document.getElementById('team-players-content');
+    if (!container) return;
+
+    if (!this.gameState) {
+      container.innerHTML = '<p>No hay partida activa</p>';
+      return;
+    }
+
+    const teamId = this.gameState.metadata.selectedTeam;
+    const team = this.dataManager.getAllTeams().find(t => t.id === teamId);
+    const players = this.dataManager.getTeamPlayers(teamId);
+    const teamOverall = this.dataManager.calculateTeamAverage(teamId);
+
+    let html = `<div style="padding: 20px;">
+      <h2>${this.getTeamEmoji(team?.name)} ${team?.name || teamId}</h2>
+      <p style="color: #aaa;">Rating: <strong>${teamOverall.toFixed(1)}/100</strong></p>
+      
+      <h3 style="margin-top: 20px; border-bottom: 2px solid #3338ff; padding-bottom: 10px;">FORMACIÓN</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 15px;">`;
+
+    const positionOrder = ['GK', 'CB', 'RB', 'LB', 'CM', 'RW', 'LW', 'ST'];
+    
+    positionOrder.forEach(pos => {
+      const player = players.find(p => p.position === pos);
+      if (player) {
+        const statusColor = player.overall >= 80 ? '#2ecc71' : player.overall >= 70 ? '#f39c12' : '#e74c3c';
+        html += `<div style="padding: 15px; background: rgba(255,255,255,0.1); border-radius: 8px; border-left: 4px solid ${statusColor};">
+          <div style="font-size: 1.5rem; margin-bottom: 8px;">${this.getPositionEmoji(pos)} ${pos}</div>
+          <div style="font-weight: bold;">${player.name}</div>
+          <div style="font-size: 0.9rem; color: #aaa;">OVR: <span style="color: ${statusColor};">${player.overall}</span></div>
+          <div style="font-size: 0.8rem; color: #999;">Edad: ${player.age}</div>
+        </div>`;
+      }
+    });
+
+    html += `</div>
+      <div style="margin-top: 30px; text-align: center;">
+        <button class="modern-btn" onclick="uiController.showScreen('mainGame')" style="padding: 12px 30px; font-size: 1rem;">
+          ◀ Volver
+        </button>
+      </div>
+    </div>`;
+
+    container.innerHTML = html;
   }
 }
 
