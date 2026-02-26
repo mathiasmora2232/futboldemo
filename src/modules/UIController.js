@@ -422,6 +422,13 @@ class UIController {
   }
 
   /**
+   * Obtiene emoji para posición de jugador
+   */
+  getPositionEmoji(position) {
+    return TeamGenerator.getPositionEmoji(position) || '👤';
+  }
+
+  /**
    * Obtiene emoji para equipo según su nombre
    */
   getTeamEmoji(teamName) {

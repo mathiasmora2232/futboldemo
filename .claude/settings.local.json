@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(tail:*)",
+      "Bash(ls:*)",
+      "Bash(head:*)",
+      "Bash(node:*)"
+    ]
+  }
+}
