@@ -117,6 +117,7 @@ class UIController {
     document.getElementById('btn-new-game')?.addEventListener('click', () => this.showScreen('leagueSelection'));
     document.getElementById('btn-load-game')?.addEventListener('click', () => this.showScreen('loadGame'));
     document.getElementById('btn-settings')?.addEventListener('click', () => this.showScreen('settings'));
+    document.getElementById('btn-changelog')?.addEventListener('click', () => this.showScreen('changelog'));
     document.getElementById('btn-exit')?.addEventListener('click', () => console.log('Saliendo...'));
 
     // Idiomas

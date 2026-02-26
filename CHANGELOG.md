@@ -5,7 +5,38 @@ Formato: `MAJOR.MINOR` (indicadores básicos → features → bugs → polish)
 
 ---
 
-## 🆕 [0.30] - 2026-02-26 - **v3.0 PREMIUM EDITION** ⭐⭐⭐⭐⭐
+## � [0.04] - 2026-02-26 - **Version Update & UI Fix**
+
+### ✨ Features
+- **[NEW]** Botón de Changelog en el menú principal
+- **[NEW]** Pantalla de Changelog con historial de versiones
+
+### 🔧 Improvements
+- Actualización de numeración de versión a v0.04
+- Completado el archivo index.html con scripts correctamente cargados
+- UIController.js ahora se carga correctamente
+- Event listeners de botones arreglados y verificados
+- Meta tags actualizados para v0.04
+
+### 🐛 Bugfixes
+- Fix: UIController.js no se estaba cargando en index.html
+- Fix: Event listeners no se vinculaban correctamente a los botones
+- Fix: HTML incompleto faltaban tags de cierre
+
+### 📊 Metrics
+- Botones funcionales: 100%
+- Pantallas navegables: 8
+- Eventos configurados: 15+
+
+### ✅ Status
+- ✓ Versión estable
+- ✓ Todos los botones funcionando
+- ✓ Changelog implementado
+- ✓ Aplicación lista para uso
+
+---
+
+## �🆕 [0.30] - 2026-02-26 - **v3.0 PREMIUM EDITION** ⭐⭐⭐⭐⭐
 
 ### ✨ Major Features
 - **[NEW]** Glassmorphism design system completo

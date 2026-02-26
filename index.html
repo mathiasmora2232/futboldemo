@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Global Football Manager v3 - Professional Demo with Real Logos and Translations">
+    <meta name="description" content="Global Football Manager v0.04 - Football Manager Game Demo">
     <meta name="keywords" content="football, manager, game, soccer, español, english">
-    <title>Global Football Manager v3 - Premium Edition</title>
+    <title>Global Football Manager v0.04</title>
     
-    <!-- Estilos v3 -->
+    <!-- Estilos -->
     <link rel="stylesheet" href="assets/styles/main-v3.css">
 </head>
 <body>
     <!-- ========================================
-         PANTALLA 1: MENÚ PRINCIPAL (v3)
+         PANTALLA 1: MENÚ PRINCIPAL
          ======================================== -->
     <div id="mainMenu" class="screen">
         <div class="main-menu-content">
             <h1 class="game-logo">⚽ GLOBAL<br>FOOTBALL<br>MANAGER</h1>
-            <p class="logo-subtitle">v3.0 - PREMIUM EDITION</p>
+            <p class="logo-subtitle">v0.04 - DEMO</p>
             
             <div class="menu-buttons">
                 <button class="btn" id="btn-new-game">
@@ -29,14 +29,17 @@
                 <button class="btn" id="btn-settings">
                     <span>⚙ Ajustes</span>
                 </button>
+                <button class="btn" id="btn-changelog">
+                    <span>📝 Changelog</span>
+                </button>
                 <button class="btn btn-danger" id="btn-exit">
                     <span>🔴 Salir</span>
                 </button>
             </div>
 
             <div style="margin-top: 60px; font-size: 0.85rem; color: var(--text-secondary); text-align: center;">
-                <p style="margin-bottom: 10px;">✨ Premium Edition with Real Team Logos & Multiязыage Support</p>
-                <p>© 2026 Global Football Manager - v3.0</p>
+                <p style="margin-bottom: 10px;">✨ Demo de Football Manager con Real Team Logos & Multiidioma</p>
+                <p>© 2026 Global Football Manager - v0.04</p>
             </div>
         </div>
     </div>
@@ -151,7 +154,7 @@
     </div>
 
     <!-- ========================================
-         PANTALLA 5: JUEGO PRINCIPAL (v3)
+         PANTALLA 5: JUEGO PRINCIPAL
          ======================================== -->
     <div id="mainGame" class="screen hidden">
         <div class="container">
@@ -179,7 +182,7 @@
                 </div>
 
                 <div class="glass-card" style="margin-top: 40px;">
-                    <h3 style="margin-bottom: 15px; color: var(--accent-primary);">ℹ Información de la Demo v3</h3>
+                    <h3 style="margin-bottom: 15px; color: var(--accent-primary);">ℹ Información de la Demo v0.04</h3>
                     <ul style="margin-top: 15px; line-height: 2; color: var(--text-secondary);">
                         <li>✓ Simulación realista de partidos entre todos los equipos</li>
                         <li>✓ Tabla de posiciones en tiempo real</li>
@@ -262,8 +265,8 @@
 
                 <!-- Información -->
                 <div class="glass-card" style="margin-top: 30px; background: rgba(51, 56, 255, 0.1); border-color: rgba(51, 56, 255, 0.3);">
-                    <h3 style="margin-bottom: 15px; color: var(--accent-tertiary);">ℹ️ Acerca de v3.0 Premium</h3>
-                    <p style="margin-bottom: 10px;">Edición mejorada con diseño Glassmorphism, soporte multiidioma, logos reales y traduccionesr completas.</p>
+                    <h3 style="margin-bottom: 15px; color: var(--accent-tertiary);">ℹ️ Acerca de v0.04</h3>
+                    <p style="margin-bottom: 10px;">Demo de Football Manager con diseño moderno, soporte multiidioma, logos reales y traduccion completa.</p>
                     <p style="font-size: 0.9rem; color: var(--text-muted);">
                         Construido con HTML5 + CSS3 + ES6 JavaScript | Datos en JSON | LocalStorage Persistence
                     </p>
@@ -277,7 +280,41 @@
     </div>
 
     <!-- ========================================
-         SCRIPTS (v3)
+         PANTALLA 9: CHANGELOG (NUEVA)
+         ======================================== -->
+    <div id="changelog" class="screen hidden">
+        <div class="container">
+            <div class="changelog-content">
+                <h1>📝 Changelog</h1>
+                <div id="changelog-content" style="margin-top: 30px; max-height: 600px; overflow-y: auto;">
+                    <div class="glass-card">
+                        <h3 style="margin-bottom: 15px;">v0.04 - Versión Actual</h3>
+                        <ul style="line-height: 2; color: var(--text-secondary);">
+                            <li>✓ Actualización de versión a v0.04</li>
+                            <li>✓ Botón de Changelog agregado</li>
+                            <li>✓ Arreglo de funcionalidad de botones</li>
+                        </ul>
+                    </div>
+                    <div class="glass-card" style="margin-top: 20px;">
+                        <h3 style="margin-bottom: 15px;">v0.30 (v3.0) - Versión Anterior</h3>
+                        <ul style="line-height: 2; color: var(--text-secondary);">
+                            <li>✓ Glassmorphism design system completo</li>
+                            <li>✓ i18n multiidioma integrado (ES/EN)</li>
+                            <li>✓ 50+ logos de equipos reales</li>
+                            <li>✓ Premium CSS con animaciones profesionales</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button class="btn btn-secondary" onclick="uiController.showScreen('mainMenu')" style="margin-top: 30px; width: 100%;">
+                    ← Volver al Menú
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         SCRIPTS
          ======================================== -->
     <!-- Config & Translations -->
     <script src="src/config/i18n.js"></script>
@@ -289,4 +326,15 @@
     <script src="src/modules/DataManager.js"></script>
     <script src="src/modules/MatchEngine.js"></script>
     <script src="src/modules/LeagueManager.js"></script>
+    <script src="src/modules/UIController.js"></script>
+    
+    <!-- App Initialization -->
+    <script>
+        let uiController;
+        document.addEventListener('DOMContentLoaded', () => {
+            uiController = new UIController();
+            uiController.init();
+        });
+    </script>
+</body>
 </html>
