@@ -1,0 +1,1264 @@
+{
+  "leagues": [
+    {
+      "id": "DE",
+      "name": "Bundesliga",
+      "country": "Germany",
+      "region": "GERMANY",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "BRA",
+          "name": "Braunschweig",
+          "shortName": "BRA"
+        },
+        {
+          "id": "ELV",
+          "name": "Elversberg",
+          "shortName": "ELV"
+        },
+        {
+          "id": "FOR",
+          "name": "Fortuna Dusseldorf",
+          "shortName": "FOR"
+        },
+        {
+          "id": "GRE",
+          "name": "Greuther Furth",
+          "shortName": "GRE"
+        },
+        {
+          "id": "HAM",
+          "name": "Hamburg",
+          "shortName": "HAM"
+        },
+        {
+          "id": "HAN",
+          "name": "Hannover",
+          "shortName": "HAN"
+        },
+        {
+          "id": "HAN",
+          "name": "Hansa Rostock",
+          "shortName": "HAN"
+        },
+        {
+          "id": "HER",
+          "name": "Hertha",
+          "shortName": "HER"
+        },
+        {
+          "id": "HOL",
+          "name": "Holstein Kiel",
+          "shortName": "HOL"
+        },
+        {
+          "id": "KAI",
+          "name": "Kaiserslautern",
+          "shortName": "KAI"
+        },
+        {
+          "id": "KAR",
+          "name": "Karlsruhe",
+          "shortName": "KAR"
+        },
+        {
+          "id": "MAG",
+          "name": "Magdeburg",
+          "shortName": "MAG"
+        },
+        {
+          "id": "NUR",
+          "name": "Nurnberg",
+          "shortName": "NUR"
+        },
+        {
+          "id": "OSN",
+          "name": "Osnabruck",
+          "shortName": "OSN"
+        },
+        {
+          "id": "PAD",
+          "name": "Paderborn",
+          "shortName": "PAD"
+        },
+        {
+          "id": "SCH",
+          "name": "Schalke 04",
+          "shortName": "SCH"
+        },
+        {
+          "id": "ST",
+          "name": "St Pauli",
+          "shortName": "ST"
+        },
+        {
+          "id": "WEH",
+          "name": "Wehen",
+          "shortName": "WEH"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 18,
+      "matchesRecorded": 306
+    },
+    {
+      "id": "PL",
+      "name": "Ekstraklasa",
+      "country": "Poland",
+      "region": "POLAND",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "CRA",
+          "name": "Cracovia",
+          "shortName": "CRA"
+        },
+        {
+          "id": "GOR",
+          "name": "Gornik Zabrze",
+          "shortName": "GOR"
+        },
+        {
+          "id": "JAG",
+          "name": "Jagiellonia",
+          "shortName": "JAG"
+        },
+        {
+          "id": "KOR",
+          "name": "Korona Kielce",
+          "shortName": "KOR"
+        },
+        {
+          "id": "LKS",
+          "name": "LKS Lodz",
+          "shortName": "LKS"
+        },
+        {
+          "id": "LEC",
+          "name": "Lech Poznan",
+          "shortName": "LEC"
+        },
+        {
+          "id": "LEG",
+          "name": "Legia",
+          "shortName": "LEG"
+        },
+        {
+          "id": "PIA",
+          "name": "Piast Gliwice",
+          "shortName": "PIA"
+        },
+        {
+          "id": "POG",
+          "name": "Pogon Szczecin",
+          "shortName": "POG"
+        },
+        {
+          "id": "PUS",
+          "name": "Puszcza",
+          "shortName": "PUS"
+        },
+        {
+          "id": "RAD",
+          "name": "Radomiak Radom",
+          "shortName": "RAD"
+        },
+        {
+          "id": "RAK",
+          "name": "Rakow",
+          "shortName": "RAK"
+        },
+        {
+          "id": "RUC",
+          "name": "Ruch Chorzow",
+          "shortName": "RUC"
+        },
+        {
+          "id": "SLA",
+          "name": "Slask Wroclaw",
+          "shortName": "SLA"
+        },
+        {
+          "id": "STA",
+          "name": "Stal Mielec",
+          "shortName": "STA"
+        },
+        {
+          "id": "WAR",
+          "name": "Warta Poznan",
+          "shortName": "WAR"
+        },
+        {
+          "id": "WID",
+          "name": "Widzew Lodz",
+          "shortName": "WID"
+        },
+        {
+          "id": "ZAG",
+          "name": "Zaglebie",
+          "shortName": "ZAG"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 18,
+      "matchesRecorded": 306
+    },
+    {
+      "id": "NL",
+      "name": "Eredivisie",
+      "country": "Netherlands",
+      "region": "NETHERLANDS",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "AZ",
+          "name": "AZ Alkmaar",
+          "shortName": "AZ"
+        },
+        {
+          "id": "AJA",
+          "name": "Ajax",
+          "shortName": "AJA"
+        },
+        {
+          "id": "ALM",
+          "name": "Almere City",
+          "shortName": "ALM"
+        },
+        {
+          "id": "EXC",
+          "name": "Excelsior",
+          "shortName": "EXC"
+        },
+        {
+          "id": "FEY",
+          "name": "Feyenoord",
+          "shortName": "FEY"
+        },
+        {
+          "id": "FOR",
+          "name": "For Sittard",
+          "shortName": "FOR"
+        },
+        {
+          "id": "GO",
+          "name": "Go Ahead Eagles",
+          "shortName": "GO"
+        },
+        {
+          "id": "HEE",
+          "name": "Heerenveen",
+          "shortName": "HEE"
+        },
+        {
+          "id": "HER",
+          "name": "Heracles",
+          "shortName": "HER"
+        },
+        {
+          "id": "NIJ",
+          "name": "Nijmegen",
+          "shortName": "NIJ"
+        },
+        {
+          "id": "PSV",
+          "name": "PSV Eindhoven",
+          "shortName": "PSV"
+        },
+        {
+          "id": "SPA",
+          "name": "Sparta Rotterdam",
+          "shortName": "SPA"
+        },
+        {
+          "id": "TWE",
+          "name": "Twente",
+          "shortName": "TWE"
+        },
+        {
+          "id": "UTR",
+          "name": "Utrecht",
+          "shortName": "UTR"
+        },
+        {
+          "id": "VIT",
+          "name": "Vitesse",
+          "shortName": "VIT"
+        },
+        {
+          "id": "VOL",
+          "name": "Volendam",
+          "shortName": "VOL"
+        },
+        {
+          "id": "WAA",
+          "name": "Waalwijk",
+          "shortName": "WAA"
+        },
+        {
+          "id": "ZWO",
+          "name": "Zwolle",
+          "shortName": "ZWO"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 18,
+      "matchesRecorded": 306
+    },
+    {
+      "id": "ES",
+      "name": "La Liga",
+      "country": "Spain",
+      "region": "SPAIN",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "ALB",
+          "name": "Albacete",
+          "shortName": "ALB"
+        },
+        {
+          "id": "ALC",
+          "name": "Alcorcon",
+          "shortName": "ALC"
+        },
+        {
+          "id": "AMO",
+          "name": "Amorebieta",
+          "shortName": "AMO"
+        },
+        {
+          "id": "AND",
+          "name": "Andorra",
+          "shortName": "AND"
+        },
+        {
+          "id": "BUR",
+          "name": "Burgos",
+          "shortName": "BUR"
+        },
+        {
+          "id": "CAR",
+          "name": "Cartagena",
+          "shortName": "CAR"
+        },
+        {
+          "id": "EIB",
+          "name": "Eibar",
+          "shortName": "EIB"
+        },
+        {
+          "id": "ELC",
+          "name": "Elche",
+          "shortName": "ELC"
+        },
+        {
+          "id": "ELD",
+          "name": "Eldense",
+          "shortName": "ELD"
+        },
+        {
+          "id": "ESP",
+          "name": "Espanol",
+          "shortName": "ESP"
+        },
+        {
+          "id": "FER",
+          "name": "Ferrol",
+          "shortName": "FER"
+        },
+        {
+          "id": "HUE",
+          "name": "Huesca",
+          "shortName": "HUE"
+        },
+        {
+          "id": "LEG",
+          "name": "Leganes",
+          "shortName": "LEG"
+        },
+        {
+          "id": "LEV",
+          "name": "Levante",
+          "shortName": "LEV"
+        },
+        {
+          "id": "MIR",
+          "name": "Mirandes",
+          "shortName": "MIR"
+        },
+        {
+          "id": "OVI",
+          "name": "Oviedo",
+          "shortName": "OVI"
+        },
+        {
+          "id": "SAN",
+          "name": "Santander",
+          "shortName": "SAN"
+        },
+        {
+          "id": "SP",
+          "name": "Sp Gijon",
+          "shortName": "SP"
+        },
+        {
+          "id": "TEN",
+          "name": "Tenerife",
+          "shortName": "TEN"
+        },
+        {
+          "id": "VAL",
+          "name": "Valladolid",
+          "shortName": "VAL"
+        },
+        {
+          "id": "VIL",
+          "name": "Villarreal B",
+          "shortName": "VIL"
+        },
+        {
+          "id": "ZAR",
+          "name": "Zaragoza",
+          "shortName": "ZAR"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 22,
+      "matchesRecorded": 462
+    },
+    {
+      "id": "MX",
+      "name": "Liga MX",
+      "country": "Mexico",
+      "region": "MEXICO",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "ATL",
+          "name": "Atl. San Luis",
+          "shortName": "ATL"
+        },
+        {
+          "id": "ATL",
+          "name": "Atlas",
+          "shortName": "ATL"
+        },
+        {
+          "id": "CLU",
+          "name": "Club America",
+          "shortName": "CLU"
+        },
+        {
+          "id": "CLU",
+          "name": "Club Leon",
+          "shortName": "CLU"
+        },
+        {
+          "id": "CLU",
+          "name": "Club Tijuana",
+          "shortName": "CLU"
+        },
+        {
+          "id": "CRU",
+          "name": "Cruz Azul",
+          "shortName": "CRU"
+        },
+        {
+          "id": "GUA",
+          "name": "Guadalajara Chivas",
+          "shortName": "GUA"
+        },
+        {
+          "id": "JUA",
+          "name": "Juarez",
+          "shortName": "JUA"
+        },
+        {
+          "id": "MAZ",
+          "name": "Mazatlan FC",
+          "shortName": "MAZ"
+        },
+        {
+          "id": "MON",
+          "name": "Monterrey",
+          "shortName": "MON"
+        },
+        {
+          "id": "NEC",
+          "name": "Necaxa",
+          "shortName": "NEC"
+        },
+        {
+          "id": "PAC",
+          "name": "Pachuca",
+          "shortName": "PAC"
+        },
+        {
+          "id": "PUE",
+          "name": "Puebla",
+          "shortName": "PUE"
+        },
+        {
+          "id": "QUE",
+          "name": "Queretaro",
+          "shortName": "QUE"
+        },
+        {
+          "id": "SAN",
+          "name": "Santos Laguna",
+          "shortName": "SAN"
+        },
+        {
+          "id": "TOL",
+          "name": "Toluca",
+          "shortName": "TOL"
+        },
+        {
+          "id": "U.A",
+          "name": "U.A.N.L.- Tigres",
+          "shortName": "U.A"
+        },
+        {
+          "id": "U.N",
+          "name": "U.N.A.M.- Pumas",
+          "shortName": "U.N"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 18,
+      "matchesRecorded": 340
+    },
+    {
+      "id": "FR",
+      "name": "Ligue 1",
+      "country": "France",
+      "region": "FRANCE",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "AJA",
+          "name": "Ajaccio",
+          "shortName": "AJA"
+        },
+        {
+          "id": "AMI",
+          "name": "Amiens",
+          "shortName": "AMI"
+        },
+        {
+          "id": "ANG",
+          "name": "Angers",
+          "shortName": "ANG"
+        },
+        {
+          "id": "ANN",
+          "name": "Annecy",
+          "shortName": "ANN"
+        },
+        {
+          "id": "AUX",
+          "name": "Auxerre",
+          "shortName": "AUX"
+        },
+        {
+          "id": "BAS",
+          "name": "Bastia",
+          "shortName": "BAS"
+        },
+        {
+          "id": "BOR",
+          "name": "Bordeaux",
+          "shortName": "BOR"
+        },
+        {
+          "id": "CAE",
+          "name": "Caen",
+          "shortName": "CAE"
+        },
+        {
+          "id": "CON",
+          "name": "Concarneau",
+          "shortName": "CON"
+        },
+        {
+          "id": "DUN",
+          "name": "Dunkerque",
+          "shortName": "DUN"
+        },
+        {
+          "id": "GRE",
+          "name": "Grenoble",
+          "shortName": "GRE"
+        },
+        {
+          "id": "GUI",
+          "name": "Guingamp",
+          "shortName": "GUI"
+        },
+        {
+          "id": "LAV",
+          "name": "Laval",
+          "shortName": "LAV"
+        },
+        {
+          "id": "PAR",
+          "name": "Paris FC",
+          "shortName": "PAR"
+        },
+        {
+          "id": "PAU",
+          "name": "Pau FC",
+          "shortName": "PAU"
+        },
+        {
+          "id": "QUE",
+          "name": "Quevilly Rouen",
+          "shortName": "QUE"
+        },
+        {
+          "id": "ROD",
+          "name": "Rodez",
+          "shortName": "ROD"
+        },
+        {
+          "id": "ST",
+          "name": "St Etienne",
+          "shortName": "ST"
+        },
+        {
+          "id": "TRO",
+          "name": "Troyes",
+          "shortName": "TRO"
+        },
+        {
+          "id": "VAL",
+          "name": "Valenciennes",
+          "shortName": "VAL"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 20,
+      "matchesRecorded": 379
+    },
+    {
+      "id": "ENG",
+      "name": "Premier League",
+      "country": "England",
+      "region": "ENGLAND",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "ALD",
+          "name": "Aldershot",
+          "shortName": "ALD"
+        },
+        {
+          "id": "ALT",
+          "name": "Altrincham",
+          "shortName": "ALT"
+        },
+        {
+          "id": "BAR",
+          "name": "Barnet",
+          "shortName": "BAR"
+        },
+        {
+          "id": "BOR",
+          "name": "Boreham Wood",
+          "shortName": "BOR"
+        },
+        {
+          "id": "BRO",
+          "name": "Bromley",
+          "shortName": "BRO"
+        },
+        {
+          "id": "CHE",
+          "name": "Chesterfield",
+          "shortName": "CHE"
+        },
+        {
+          "id": "DAG",
+          "name": "Dag and Red",
+          "shortName": "DAG"
+        },
+        {
+          "id": "DOR",
+          "name": "Dorking",
+          "shortName": "DOR"
+        },
+        {
+          "id": "EAS",
+          "name": "Eastleigh",
+          "shortName": "EAS"
+        },
+        {
+          "id": "EBB",
+          "name": "Ebbsfleet",
+          "shortName": "EBB"
+        },
+        {
+          "id": "FYL",
+          "name": "Fylde",
+          "shortName": "FYL"
+        },
+        {
+          "id": "GAT",
+          "name": "Gateshead",
+          "shortName": "GAT"
+        },
+        {
+          "id": "HAL",
+          "name": "Halifax",
+          "shortName": "HAL"
+        },
+        {
+          "id": "HAR",
+          "name": "Hartlepool",
+          "shortName": "HAR"
+        },
+        {
+          "id": "KID",
+          "name": "Kidderminster",
+          "shortName": "KID"
+        },
+        {
+          "id": "MAI",
+          "name": "Maidenhead",
+          "shortName": "MAI"
+        },
+        {
+          "id": "OLD",
+          "name": "Oldham",
+          "shortName": "OLD"
+        },
+        {
+          "id": "OXF",
+          "name": "Oxford City",
+          "shortName": "OXF"
+        },
+        {
+          "id": "ROC",
+          "name": "Rochdale",
+          "shortName": "ROC"
+        },
+        {
+          "id": "SOL",
+          "name": "Solihull",
+          "shortName": "SOL"
+        },
+        {
+          "id": "SOU",
+          "name": "Southend",
+          "shortName": "SOU"
+        },
+        {
+          "id": "WEA",
+          "name": "Wealdstone",
+          "shortName": "WEA"
+        },
+        {
+          "id": "WOK",
+          "name": "Woking",
+          "shortName": "WOK"
+        },
+        {
+          "id": "YOR",
+          "name": "York",
+          "shortName": "YOR"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 24,
+      "matchesRecorded": 552
+    },
+    {
+      "id": "PT",
+      "name": "Primeira Liga",
+      "country": "Portugal",
+      "region": "PORTUGAL",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "ARO",
+          "name": "Arouca",
+          "shortName": "ARO"
+        },
+        {
+          "id": "BEN",
+          "name": "Benfica",
+          "shortName": "BEN"
+        },
+        {
+          "id": "BOA",
+          "name": "Boavista",
+          "shortName": "BOA"
+        },
+        {
+          "id": "CAS",
+          "name": "Casa Pia",
+          "shortName": "CAS"
+        },
+        {
+          "id": "CHA",
+          "name": "Chaves",
+          "shortName": "CHA"
+        },
+        {
+          "id": "EST",
+          "name": "Estoril",
+          "shortName": "EST"
+        },
+        {
+          "id": "EST",
+          "name": "Estrela",
+          "shortName": "EST"
+        },
+        {
+          "id": "FAM",
+          "name": "Famalicao",
+          "shortName": "FAM"
+        },
+        {
+          "id": "FAR",
+          "name": "Farense",
+          "shortName": "FAR"
+        },
+        {
+          "id": "GIL",
+          "name": "Gil Vicente",
+          "shortName": "GIL"
+        },
+        {
+          "id": "GUI",
+          "name": "Guimaraes",
+          "shortName": "GUI"
+        },
+        {
+          "id": "MOR",
+          "name": "Moreirense",
+          "shortName": "MOR"
+        },
+        {
+          "id": "POR",
+          "name": "Portimonense",
+          "shortName": "POR"
+        },
+        {
+          "id": "POR",
+          "name": "Porto",
+          "shortName": "POR"
+        },
+        {
+          "id": "RIO",
+          "name": "Rio Ave",
+          "shortName": "RIO"
+        },
+        {
+          "id": "SP",
+          "name": "Sp Braga",
+          "shortName": "SP"
+        },
+        {
+          "id": "SP",
+          "name": "Sp Lisbon",
+          "shortName": "SP"
+        },
+        {
+          "id": "VIZ",
+          "name": "Vizela",
+          "shortName": "VIZ"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 18,
+      "matchesRecorded": 306
+    },
+    {
+      "id": "SCO",
+      "name": "Scottish Premier",
+      "country": "Scotland",
+      "region": "SCOTLAND",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "BON",
+          "name": "Bonnyrigg Rose",
+          "shortName": "BON"
+        },
+        {
+          "id": "CLY",
+          "name": "Clyde",
+          "shortName": "CLY"
+        },
+        {
+          "id": "DUM",
+          "name": "Dumbarton",
+          "shortName": "DUM"
+        },
+        {
+          "id": "EAS",
+          "name": "East Fife",
+          "shortName": "EAS"
+        },
+        {
+          "id": "ELG",
+          "name": "Elgin",
+          "shortName": "ELG"
+        },
+        {
+          "id": "FOR",
+          "name": "Forfar",
+          "shortName": "FOR"
+        },
+        {
+          "id": "PET",
+          "name": "Peterhead",
+          "shortName": "PET"
+        },
+        {
+          "id": "SPA",
+          "name": "Spartans",
+          "shortName": "SPA"
+        },
+        {
+          "id": "STE",
+          "name": "Stenhousemuir",
+          "shortName": "STE"
+        },
+        {
+          "id": "STR",
+          "name": "Stranraer",
+          "shortName": "STR"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 10,
+      "matchesRecorded": 180
+    },
+    {
+      "id": "IT",
+      "name": "Serie A",
+      "country": "Italy",
+      "region": "ITALY",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "ASC",
+          "name": "Ascoli",
+          "shortName": "ASC"
+        },
+        {
+          "id": "BAR",
+          "name": "Bari",
+          "shortName": "BAR"
+        },
+        {
+          "id": "BRE",
+          "name": "Brescia",
+          "shortName": "BRE"
+        },
+        {
+          "id": "CAT",
+          "name": "Catanzaro",
+          "shortName": "CAT"
+        },
+        {
+          "id": "CIT",
+          "name": "Cittadella",
+          "shortName": "CIT"
+        },
+        {
+          "id": "COM",
+          "name": "Como",
+          "shortName": "COM"
+        },
+        {
+          "id": "COS",
+          "name": "Cosenza",
+          "shortName": "COS"
+        },
+        {
+          "id": "CRE",
+          "name": "Cremonese",
+          "shortName": "CRE"
+        },
+        {
+          "id": "FER",
+          "name": "FeralpiSalo",
+          "shortName": "FER"
+        },
+        {
+          "id": "LEC",
+          "name": "Lecco",
+          "shortName": "LEC"
+        },
+        {
+          "id": "MOD",
+          "name": "Modena",
+          "shortName": "MOD"
+        },
+        {
+          "id": "PAL",
+          "name": "Palermo",
+          "shortName": "PAL"
+        },
+        {
+          "id": "PAR",
+          "name": "Parma",
+          "shortName": "PAR"
+        },
+        {
+          "id": "PIS",
+          "name": "Pisa",
+          "shortName": "PIS"
+        },
+        {
+          "id": "REG",
+          "name": "Reggiana",
+          "shortName": "REG"
+        },
+        {
+          "id": "SAM",
+          "name": "Sampdoria",
+          "shortName": "SAM"
+        },
+        {
+          "id": "SPE",
+          "name": "Spezia",
+          "shortName": "SPE"
+        },
+        {
+          "id": "SUD",
+          "name": "Sudtirol",
+          "shortName": "SUD"
+        },
+        {
+          "id": "TER",
+          "name": "Ternana",
+          "shortName": "TER"
+        },
+        {
+          "id": "VEN",
+          "name": "Venezia",
+          "shortName": "VEN"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 20,
+      "matchesRecorded": 380
+    },
+    {
+      "id": "CH",
+      "name": "Super League",
+      "country": "Switzerland",
+      "region": "SWITZERLAND",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "BAS",
+          "name": "Basel",
+          "shortName": "BAS"
+        },
+        {
+          "id": "GRA",
+          "name": "Grasshoppers",
+          "shortName": "GRA"
+        },
+        {
+          "id": "LAU",
+          "name": "Lausanne",
+          "shortName": "LAU"
+        },
+        {
+          "id": "LAU",
+          "name": "Lausanne Ouchy",
+          "shortName": "LAU"
+        },
+        {
+          "id": "LUG",
+          "name": "Lugano",
+          "shortName": "LUG"
+        },
+        {
+          "id": "LUZ",
+          "name": "Luzern",
+          "shortName": "LUZ"
+        },
+        {
+          "id": "SER",
+          "name": "Servette",
+          "shortName": "SER"
+        },
+        {
+          "id": "ST.",
+          "name": "St. Gallen",
+          "shortName": "ST."
+        },
+        {
+          "id": "THU",
+          "name": "Thun",
+          "shortName": "THU"
+        },
+        {
+          "id": "WIN",
+          "name": "Winterthur",
+          "shortName": "WIN"
+        },
+        {
+          "id": "YOU",
+          "name": "Young Boys",
+          "shortName": "YOU"
+        },
+        {
+          "id": "YVE",
+          "name": "Yverdon",
+          "shortName": "YVE"
+        },
+        {
+          "id": "ZUR",
+          "name": "Zurich",
+          "shortName": "ZUR"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 13,
+      "matchesRecorded": 230
+    },
+    {
+      "id": "TR",
+      "name": "Süper Lig",
+      "country": "Turkey",
+      "region": "TURKEY",
+      "season": 2023,
+      "enabled": false,
+      "teams": [
+        {
+          "id": "AD.",
+          "name": "Ad. Demirspor",
+          "shortName": "AD."
+        },
+        {
+          "id": "ALA",
+          "name": "Alanyaspor",
+          "shortName": "ALA"
+        },
+        {
+          "id": "ANK",
+          "name": "Ankaragucu",
+          "shortName": "ANK"
+        },
+        {
+          "id": "ANT",
+          "name": "Antalyaspor",
+          "shortName": "ANT"
+        },
+        {
+          "id": "BES",
+          "name": "Besiktas",
+          "shortName": "BES"
+        },
+        {
+          "id": "BUY",
+          "name": "Buyuksehyr",
+          "shortName": "BUY"
+        },
+        {
+          "id": "FEN",
+          "name": "Fenerbahce",
+          "shortName": "FEN"
+        },
+        {
+          "id": "GAL",
+          "name": "Galatasaray",
+          "shortName": "GAL"
+        },
+        {
+          "id": "GAZ",
+          "name": "Gaziantep",
+          "shortName": "GAZ"
+        },
+        {
+          "id": "HAT",
+          "name": "Hatayspor",
+          "shortName": "HAT"
+        },
+        {
+          "id": "IST",
+          "name": "Istanbulspor",
+          "shortName": "IST"
+        },
+        {
+          "id": "KAR",
+          "name": "Karagumruk",
+          "shortName": "KAR"
+        },
+        {
+          "id": "KAS",
+          "name": "Kasimpasa",
+          "shortName": "KAS"
+        },
+        {
+          "id": "KAY",
+          "name": "Kayserispor",
+          "shortName": "KAY"
+        },
+        {
+          "id": "KON",
+          "name": "Konyaspor",
+          "shortName": "KON"
+        },
+        {
+          "id": "PEN",
+          "name": "Pendikspor",
+          "shortName": "PEN"
+        },
+        {
+          "id": "RIZ",
+          "name": "Rizespor",
+          "shortName": "RIZ"
+        },
+        {
+          "id": "SAM",
+          "name": "Samsunspor",
+          "shortName": "SAM"
+        },
+        {
+          "id": "SIV",
+          "name": "Sivasspor",
+          "shortName": "SIV"
+        },
+        {
+          "id": "TRA",
+          "name": "Trabzonspor",
+          "shortName": "TRA"
+        }
+      ],
+      "realData": true,
+      "teamsCount": 20,
+      "matchesRecorded": 380
+    }
+  ],
+  "generatedFrom": "cache.footballdata-master",
+  "season": "2023-24",
+  "totalLeagues": 12,
+  "totalTeams": 219,
+  "metadata": {
+    "description": "Real-world football data extracted from historical match records",
+    "includesRealResults": true,
+    "matchesProcessed": 8123
+  }
+}

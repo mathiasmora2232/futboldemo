@@ -1,0 +1,199 @@
+Round,Date,Time,Timezone,Team 1,FT,HT,Team 2,UTC
+1,Sat Aug 3 2024,15:00,BST/+0100,Motherwell FC,0-0,0-0,Ross County FC,2024-08-03T14:00Z
+1,Sat Aug 3 2024,12:30,BST/+0100,Heart of Midlothian,0-0,0-0,Rangers FC,2024-08-03T11:30Z
+1,Sun Aug 4 2024,15:00,BST/+0100,St. Mirren FC,3-0,0-0,Hibernian FC,2024-08-04T14:00Z
+1,Sun Aug 4 2024,16:30,BST/+0100,Celtic FC,4-0,2-0,Kilmarnock FC,2024-08-04T15:30Z
+1,Sun Aug 4 2024,13:30,BST/+0100,Dundee United,2-2,2-1,Dundee FC,2024-08-04T12:30Z
+1,Mon Aug 5 2024,20:00,BST/+0100,St. Johnstone FC,1-2,0-1,Aberdeen FC,2024-08-05T19:00Z
+2,Sat Aug 10 2024,15:00,BST/+0100,Rangers FC,2-1,2-1,Motherwell FC,2024-08-10T14:00Z
+2,Sat Aug 10 2024,15:00,BST/+0100,Ross County FC,1-1,0-0,Dundee United,2024-08-10T14:00Z
+2,Sat Aug 10 2024,17:30,BST/+0100,Dundee FC,3-1,3-0,Heart of Midlothian,2024-08-10T16:30Z
+2,Sun Aug 11 2024,15:00,BST/+0100,Aberdeen FC,3-1,1-1,St. Mirren FC,2024-08-11T14:00Z
+2,Sun Aug 11 2024,15:00,BST/+0100,Kilmarnock FC,0-3,0-2,St. Johnstone FC,2024-08-11T14:00Z
+2,Sun Aug 11 2024,12:30,BST/+0100,Hibernian FC,0-2,0-2,Celtic FC,2024-08-11T11:30Z
+3,Sat Aug 24 2024,15:00,BST/+0100,Dundee United,2-0,0-0,St. Johnstone FC,2024-08-24T14:00Z
+3,Sat Aug 24 2024,15:00,BST/+0100,Hibernian FC,2-2,1-1,Dundee FC,2024-08-24T14:00Z
+3,Sat Aug 24 2024,15:00,BST/+0100,Rangers FC,6-0,2-0,Ross County FC,2024-08-24T14:00Z
+3,Sun Aug 25 2024,15:00,BST/+0100,Aberdeen FC,2-0,1-0,Kilmarnock FC,2024-08-25T14:00Z
+3,Sun Aug 25 2024,15:00,BST/+0100,Motherwell FC,3-1,1-0,Heart of Midlothian,2024-08-25T14:00Z
+3,Sun Aug 25 2024,12:00,BST/+0100,St. Mirren FC,0-3,0-2,Celtic FC,2024-08-25T11:00Z
+4,Sat Aug 31 2024,15:00,BST/+0100,Dundee FC,2-2,1-2,St. Mirren FC,2024-08-31T14:00Z
+4,Sat Aug 31 2024,15:00,BST/+0100,St. Johnstone FC,1-2,0-1,Motherwell FC,2024-08-31T14:00Z
+4,Sat Aug 31 2024,17:45,BST/+0100,Ross County FC,0-1,0-0,Aberdeen FC,2024-08-31T16:45Z
+4,Sun Sep 1 2024,15:00,BST/+0100,Heart of Midlothian,0-1,0-0,Dundee United,2024-09-01T14:00Z
+4,Sun Sep 1 2024,15:00,BST/+0100,Kilmarnock FC,1-1,0-0,Hibernian FC,2024-09-01T14:00Z
+4,Sun Sep 1 2024,12:30,BST/+0100,Celtic FC,3-0,2-0,Rangers FC,2024-09-01T11:30Z
+5,Sat Sep 14 2024,15:00,BST/+0100,Aberdeen FC,2-1,1-0,Motherwell FC,2024-09-14T14:00Z
+5,Sat Sep 14 2024,15:00,BST/+0100,Celtic FC,2-0,0-0,Heart of Midlothian,2024-09-14T14:00Z
+5,Sat Sep 14 2024,15:00,BST/+0100,Hibernian FC,2-0,1-0,St. Johnstone FC,2024-09-14T14:00Z
+5,Sat Sep 14 2024,15:00,BST/+0100,Ross County FC,2-0,2-0,Dundee FC,2024-09-14T14:00Z
+5,Sat Sep 14 2024,15:00,BST/+0100,St. Mirren FC,2-2,2-1,Kilmarnock FC,2024-09-14T14:00Z
+5,Sun Sep 15 2024,12:00,BST/+0100,Dundee United,0-1,0-1,Rangers FC,2024-09-15T11:00Z
+15,Sat Sep 21 2024,15:00,BST/+0100,St. Mirren FC,2-1,2-1,Heart of Midlothian,2024-09-21T14:00Z
+15,Sat Sep 21 2024,15:00,BST/+0100,Ross County FC,3-3,1-1,St. Johnstone FC,2024-09-21T14:00Z
+6,Sat Sep 28 2024,15:00,BST/+0100,Kilmarnock FC,,,Dundee United,2024-09-28T14:00Z
+6,Sat Sep 28 2024,15:00,BST/+0100,Motherwell FC,,,St. Mirren FC,2024-09-28T14:00Z
+6,Sat Sep 28 2024,17:45,BST/+0100,St. Johnstone FC,,,Celtic FC,2024-09-28T16:45Z
+6,Sat Sep 28 2024,15:00,BST/+0100,Heart of Midlothian,,,Ross County FC,2024-09-28T14:00Z
+6,Sat Sep 28 2024,15:00,BST/+0100,Dundee FC,,,Aberdeen FC,2024-09-28T14:00Z
+6,Sun Sep 29 2024,12:00,BST/+0100,Rangers FC,,,Hibernian FC,2024-09-29T11:00Z
+7,Sat Oct 5 2024,15:00,BST/+0100,St. Mirren FC,,,Dundee United,2024-10-05T14:00Z
+7,Sat Oct 5 2024,15:00,BST/+0100,Dundee FC,,,Kilmarnock FC,2024-10-05T14:00Z
+7,Sat Oct 5 2024,15:00,BST/+0100,Hibernian FC,,,Motherwell FC,2024-10-05T14:00Z
+7,Sun Oct 6 2024,20:00,BST/+0100,Rangers FC,,,St. Johnstone FC,2024-10-06T19:00Z
+7,Sun Oct 6 2024,15:00,BST/+0100,Aberdeen FC,,,Heart of Midlothian,2024-10-06T14:00Z
+7,Sun Oct 6 2024,12:00,BST/+0100,Ross County FC,,,Celtic FC,2024-10-06T11:00Z
+8,Sat Oct 19 2024,15:00,BST/+0100,Heart of Midlothian,,,St. Mirren FC,2024-10-19T14:00Z
+8,Sat Oct 19 2024,15:00,BST/+0100,Motherwell FC,,,Dundee FC,2024-10-19T14:00Z
+8,Sat Oct 19 2024,15:00,BST/+0100,St. Johnstone FC,,,Ross County FC,2024-10-19T14:00Z
+8,Sat Oct 19 2024,15:00,BST/+0100,Dundee United,,,Hibernian FC,2024-10-19T14:00Z
+8,Sat Oct 19 2024,15:00,BST/+0100,Celtic FC,,,Aberdeen FC,2024-10-19T14:00Z
+8,Sun Oct 20 2024,12:00,BST/+0100,Kilmarnock FC,,,Rangers FC,2024-10-20T11:00Z
+9,Sat Oct 26 2024,17:45,BST/+0100,Aberdeen FC,,,Dundee United,2024-10-26T16:45Z
+9,Sat Oct 26 2024,15:00,BST/+0100,Dundee FC,,,St. Johnstone FC,2024-10-26T14:00Z
+9,Sat Oct 26 2024,15:00,BST/+0100,Ross County FC,,,Kilmarnock FC,2024-10-26T14:00Z
+9,Sun Oct 27 2024,15:00,GMT/+0000,Rangers FC,,,St. Mirren FC,2024-10-27T15:00Z
+9,Sun Oct 27 2024,12:00,GMT/+0000,Hibernian FC,,,Heart of Midlothian,2024-10-27T12:00Z
+9,Sun Oct 27 2024,15:00,GMT/+0000,Motherwell FC,,,Celtic FC,2024-10-27T15:00Z
+10,Wed Oct 30 2024,19:45,GMT/+0000,Dundee United,,,Motherwell FC,2024-10-30T19:45Z
+10,Wed Oct 30 2024,19:45,GMT/+0000,Heart of Midlothian,,,Kilmarnock FC,2024-10-30T19:45Z
+10,Wed Oct 30 2024,19:45,GMT/+0000,Ross County FC,,,Hibernian FC,2024-10-30T19:45Z
+10,Wed Oct 30 2024,19:45,GMT/+0000,St. Mirren FC,,,St. Johnstone FC,2024-10-30T19:45Z
+10,Wed Oct 30 2024,19:45,GMT/+0000,Celtic FC,,,Dundee FC,2024-10-30T19:45Z
+10,Wed Oct 30 2024,19:45,GMT/+0000,Aberdeen FC,,,Rangers FC,2024-10-30T19:45Z
+11,Sat Nov 2 2024,15:00,GMT/+0000,Hibernian FC,,,Aberdeen FC,2024-11-02T15:00Z
+11,Sat Nov 2 2024,15:00,GMT/+0000,Kilmarnock FC,,,Motherwell FC,2024-11-02T15:00Z
+11,Sat Nov 2 2024,15:00,GMT/+0000,Dundee FC,,,Rangers FC,2024-11-02T15:00Z
+11,Sat Nov 2 2024,15:00,GMT/+0000,St. Mirren FC,,,Ross County FC,2024-11-02T15:00Z
+11,Sat Nov 2 2024,15:00,GMT/+0000,Celtic FC,,,Dundee United,2024-11-02T15:00Z
+11,Sat Nov 2 2024,15:00,GMT/+0000,St. Johnstone FC,,,Heart of Midlothian,2024-11-02T15:00Z
+12,Sat Nov 9 2024,15:00,GMT/+0000,Kilmarnock FC,,,Celtic FC,2024-11-09T15:00Z
+12,Sat Nov 9 2024,15:00,GMT/+0000,Motherwell FC,,,St. Johnstone FC,2024-11-09T15:00Z
+12,Sat Nov 9 2024,15:00,GMT/+0000,Dundee United,,,Ross County FC,2024-11-09T15:00Z
+12,Sat Nov 9 2024,15:00,GMT/+0000,Hibernian FC,,,St. Mirren FC,2024-11-09T15:00Z
+12,Sat Nov 9 2024,15:00,GMT/+0000,Aberdeen FC,,,Dundee FC,2024-11-09T15:00Z
+12,Sun Nov 10 2024,,,Rangers FC,,,Heart of Midlothian,
+13,Sat Nov 23 2024,15:00,GMT/+0000,Ross County FC,,,Motherwell FC,2024-11-23T15:00Z
+13,Sat Nov 23 2024,15:00,GMT/+0000,St. Johnstone FC,,,Kilmarnock FC,2024-11-23T15:00Z
+13,Sat Nov 23 2024,15:00,GMT/+0000,St. Mirren FC,,,Aberdeen FC,2024-11-23T15:00Z
+13,Sat Nov 23 2024,15:00,GMT/+0000,Rangers FC,,,Dundee United,2024-11-23T15:00Z
+13,Sat Nov 23 2024,15:00,GMT/+0000,Heart of Midlothian,,,Celtic FC,2024-11-23T15:00Z
+13,Sat Nov 23 2024,15:00,GMT/+0000,Dundee FC,,,Hibernian FC,2024-11-23T15:00Z
+14,Sat Nov 30 2024,15:00,GMT/+0000,Kilmarnock FC,,,Dundee FC,2024-11-30T15:00Z
+14,Sat Nov 30 2024,15:00,GMT/+0000,Motherwell FC,,,Hibernian FC,2024-11-30T15:00Z
+14,Sat Nov 30 2024,15:00,GMT/+0000,St. Johnstone FC,,,Rangers FC,2024-11-30T15:00Z
+14,Sat Nov 30 2024,15:00,GMT/+0000,Dundee United,,,St. Mirren FC,2024-11-30T15:00Z
+14,Sat Nov 30 2024,15:00,GMT/+0000,Celtic FC,,,Ross County FC,2024-11-30T15:00Z
+14,Sat Nov 30 2024,15:00,GMT/+0000,Heart of Midlothian,,,Aberdeen FC,2024-11-30T15:00Z
+15,Wed Dec 4 2024,19:45,GMT/+0000,Aberdeen FC,,,Celtic FC,2024-12-04T19:45Z
+15,Wed Dec 4 2024,19:45,GMT/+0000,Dundee FC,,,Motherwell FC,2024-12-04T19:45Z
+15,Wed Dec 4 2024,19:45,GMT/+0000,Hibernian FC,,,Dundee United,2024-12-04T19:45Z
+15,Wed Dec 4 2024,19:45,GMT/+0000,Rangers FC,,,Kilmarnock FC,2024-12-04T19:45Z
+16,Sat Dec 7 2024,15:00,GMT/+0000,Celtic FC,,,Hibernian FC,2024-12-07T15:00Z
+16,Sat Dec 7 2024,15:00,GMT/+0000,Dundee United,,,Kilmarnock FC,2024-12-07T15:00Z
+16,Sat Dec 7 2024,15:00,GMT/+0000,Heart of Midlothian,,,Dundee FC,2024-12-07T15:00Z
+16,Sat Dec 7 2024,15:00,GMT/+0000,Ross County FC,,,Rangers FC,2024-12-07T15:00Z
+16,Sat Dec 7 2024,15:00,GMT/+0000,St. Mirren FC,,,Motherwell FC,2024-12-07T15:00Z
+16,Sat Dec 7 2024,15:00,GMT/+0000,Aberdeen FC,,,St. Johnstone FC,2024-12-07T15:00Z
+17,Sat Dec 14 2024,15:00,GMT/+0000,Dundee FC,,,Celtic FC,2024-12-14T15:00Z
+17,Sat Dec 14 2024,15:00,GMT/+0000,Hibernian FC,,,Ross County FC,2024-12-14T15:00Z
+17,Sat Dec 14 2024,15:00,GMT/+0000,Kilmarnock FC,,,Heart of Midlothian,2024-12-14T15:00Z
+17,Sat Dec 14 2024,15:00,GMT/+0000,Motherwell FC,,,Dundee United,2024-12-14T15:00Z
+17,Sat Dec 14 2024,15:00,GMT/+0000,Rangers FC,,,Aberdeen FC,2024-12-14T15:00Z
+17,Sat Dec 14 2024,15:00,GMT/+0000,St. Johnstone FC,,,St. Mirren FC,2024-12-14T15:00Z
+18,Sat Dec 21 2024,15:00,GMT/+0000,Dundee United,,,Celtic FC,2024-12-21T15:00Z
+18,Sat Dec 21 2024,15:00,GMT/+0000,Heart of Midlothian,,,St. Johnstone FC,2024-12-21T15:00Z
+18,Sat Dec 21 2024,15:00,GMT/+0000,Motherwell FC,,,Kilmarnock FC,2024-12-21T15:00Z
+18,Sat Dec 21 2024,15:00,GMT/+0000,Rangers FC,,,Dundee FC,2024-12-21T15:00Z
+18,Sat Dec 21 2024,15:00,GMT/+0000,Ross County FC,,,St. Mirren FC,2024-12-21T15:00Z
+18,Sat Dec 21 2024,15:00,GMT/+0000,Aberdeen FC,,,Hibernian FC,2024-12-21T15:00Z
+19,Thu Dec 26 2024,12:30,GMT/+0000,Heart of Midlothian,,,Hibernian FC,2024-12-26T12:30Z
+19,Thu Dec 26 2024,15:00,GMT/+0000,Celtic FC,,,Motherwell FC,2024-12-26T15:00Z
+19,Thu Dec 26 2024,15:00,GMT/+0000,Dundee FC,,,Ross County FC,2024-12-26T15:00Z
+19,Thu Dec 26 2024,15:00,GMT/+0000,Kilmarnock FC,,,Aberdeen FC,2024-12-26T15:00Z
+19,Thu Dec 26 2024,15:00,GMT/+0000,St. Johnstone FC,,,Dundee United,2024-12-26T15:00Z
+19,Thu Dec 26 2024,15:00,GMT/+0000,St. Mirren FC,,,Rangers FC,2024-12-26T15:00Z
+20,Sun Dec 29 2024,15:00,GMT/+0000,Celtic FC,,,St. Johnstone FC,2024-12-29T15:00Z
+20,Sun Dec 29 2024,15:00,GMT/+0000,Dundee United,,,Aberdeen FC,2024-12-29T15:00Z
+20,Sun Dec 29 2024,15:00,GMT/+0000,Hibernian FC,,,Kilmarnock FC,2024-12-29T15:00Z
+20,Sun Dec 29 2024,15:00,GMT/+0000,Motherwell FC,,,Rangers FC,2024-12-29T15:00Z
+20,Sun Dec 29 2024,15:00,GMT/+0000,Ross County FC,,,Heart of Midlothian,2024-12-29T15:00Z
+20,Sun Dec 29 2024,15:00,GMT/+0000,St. Mirren FC,,,Dundee FC,2024-12-29T15:00Z
+21,Thu Jan 2 2025,15:00,GMT/+0000,Heart of Midlothian,,,Motherwell FC,2025-01-02T15:00Z
+21,Thu Jan 2 2025,15:00,GMT/+0000,Kilmarnock FC,,,St. Mirren FC,2025-01-02T15:00Z
+21,Thu Jan 2 2025,15:00,GMT/+0000,Rangers FC,,,Celtic FC,2025-01-02T15:00Z
+21,Thu Jan 2 2025,15:00,GMT/+0000,St. Johnstone FC,,,Hibernian FC,2025-01-02T15:00Z
+21,Thu Jan 2 2025,17:30,GMT/+0000,Dundee FC,,,Dundee United,2025-01-02T17:30Z
+21,Thu Jan 2 2025,15:00,GMT/+0000,Aberdeen FC,,,Ross County FC,2025-01-02T15:00Z
+22,Sun Jan 5 2025,15:00,GMT/+0000,Celtic FC,,,St. Mirren FC,2025-01-05T15:00Z
+22,Sun Jan 5 2025,15:00,GMT/+0000,Dundee United,,,Heart of Midlothian,2025-01-05T15:00Z
+22,Sun Jan 5 2025,15:00,GMT/+0000,Hibernian FC,,,Rangers FC,2025-01-05T15:00Z
+22,Sun Jan 5 2025,15:00,GMT/+0000,Kilmarnock FC,,,Ross County FC,2025-01-05T15:00Z
+22,Sun Jan 5 2025,15:00,GMT/+0000,Motherwell FC,,,Aberdeen FC,2025-01-05T15:00Z
+22,Sun Jan 5 2025,15:00,GMT/+0000,St. Johnstone FC,,,Dundee FC,2025-01-05T15:00Z
+23,Sat Jan 11 2025,15:00,GMT/+0000,Dundee FC,,,Kilmarnock FC,2025-01-11T15:00Z
+23,Sat Jan 11 2025,15:00,GMT/+0000,Hibernian FC,,,Motherwell FC,2025-01-11T15:00Z
+23,Sat Jan 11 2025,15:00,GMT/+0000,Rangers FC,,,St. Johnstone FC,2025-01-11T15:00Z
+23,Sat Jan 11 2025,15:00,GMT/+0000,Ross County FC,,,Celtic FC,2025-01-11T15:00Z
+23,Sat Jan 11 2025,15:00,GMT/+0000,St. Mirren FC,,,Dundee United,2025-01-11T15:00Z
+23,Sat Jan 11 2025,15:00,GMT/+0000,Aberdeen FC,,,Heart of Midlothian,2025-01-11T15:00Z
+24,Sat Jan 25 2025,15:00,GMT/+0000,Aberdeen FC,,,St. Mirren FC,2025-01-25T15:00Z
+24,Sat Jan 25 2025,15:00,GMT/+0000,Celtic FC,,,Dundee FC,2025-01-25T15:00Z
+24,Sat Jan 25 2025,15:00,GMT/+0000,Dundee United,,,Rangers FC,2025-01-25T15:00Z
+24,Sat Jan 25 2025,15:00,GMT/+0000,Heart of Midlothian,,,Kilmarnock FC,2025-01-25T15:00Z
+24,Sat Jan 25 2025,15:00,GMT/+0000,Ross County FC,,,Hibernian FC,2025-01-25T15:00Z
+24,Sat Jan 25 2025,15:00,GMT/+0000,St. Johnstone FC,,,Motherwell FC,2025-01-25T15:00Z
+25,Sat Feb 1 2025,15:00,GMT/+0000,Hibernian FC,,,Aberdeen FC,2025-02-01T15:00Z
+25,Sat Feb 1 2025,15:00,GMT/+0000,Kilmarnock FC,,,Dundee United,2025-02-01T15:00Z
+25,Sat Feb 1 2025,15:00,GMT/+0000,Motherwell FC,,,Celtic FC,2025-02-01T15:00Z
+25,Sat Feb 1 2025,15:00,GMT/+0000,Rangers FC,,,Ross County FC,2025-02-01T15:00Z
+25,Sat Feb 1 2025,15:00,GMT/+0000,St. Mirren FC,,,St. Johnstone FC,2025-02-01T15:00Z
+25,Sat Feb 1 2025,15:00,GMT/+0000,Dundee FC,,,Heart of Midlothian,2025-02-01T15:00Z
+26,Sat Feb 15 2025,15:00,GMT/+0000,Celtic FC,,,Dundee United,2025-02-15T15:00Z
+26,Sat Feb 15 2025,15:00,GMT/+0000,Dundee FC,,,Aberdeen FC,2025-02-15T15:00Z
+26,Sat Feb 15 2025,15:00,GMT/+0000,Heart of Midlothian,,,Rangers FC,2025-02-15T15:00Z
+26,Sat Feb 15 2025,15:00,GMT/+0000,Kilmarnock FC,,,St. Johnstone FC,2025-02-15T15:00Z
+26,Sat Feb 15 2025,15:00,GMT/+0000,Motherwell FC,,,Ross County FC,2025-02-15T15:00Z
+26,Sat Feb 15 2025,15:00,GMT/+0000,St. Mirren FC,,,Hibernian FC,2025-02-15T15:00Z
+27,Sat Feb 22 2025,15:00,GMT/+0000,Dundee United,,,Motherwell FC,2025-02-22T15:00Z
+27,Sat Feb 22 2025,15:00,GMT/+0000,Hibernian FC,,,Celtic FC,2025-02-22T15:00Z
+27,Sat Feb 22 2025,15:00,GMT/+0000,Rangers FC,,,St. Mirren FC,2025-02-22T15:00Z
+27,Sat Feb 22 2025,15:00,GMT/+0000,Ross County FC,,,Dundee FC,2025-02-22T15:00Z
+27,Sat Feb 22 2025,15:00,GMT/+0000,St. Johnstone FC,,,Heart of Midlothian,2025-02-22T15:00Z
+27,Sat Feb 22 2025,15:00,GMT/+0000,Aberdeen FC,,,Kilmarnock FC,2025-02-22T15:00Z
+28,Wed Feb 26 2025,19:45,GMT/+0000,Celtic FC,,,Aberdeen FC,2025-02-26T19:45Z
+28,Wed Feb 26 2025,19:45,GMT/+0000,Dundee United,,,Hibernian FC,2025-02-26T19:45Z
+28,Wed Feb 26 2025,19:45,GMT/+0000,Heart of Midlothian,,,St. Mirren FC,2025-02-26T19:45Z
+28,Wed Feb 26 2025,19:45,GMT/+0000,Kilmarnock FC,,,Rangers FC,2025-02-26T19:45Z
+28,Wed Feb 26 2025,19:45,GMT/+0000,Motherwell FC,,,Dundee FC,2025-02-26T19:45Z
+28,Wed Feb 26 2025,19:45,GMT/+0000,St. Johnstone FC,,,Ross County FC,2025-02-26T19:45Z
+29,Sat Mar 1 2025,15:00,GMT/+0000,Dundee FC,,,St. Johnstone FC,2025-03-01T15:00Z
+29,Sat Mar 1 2025,15:00,GMT/+0000,Hibernian FC,,,Heart of Midlothian,2025-03-01T15:00Z
+29,Sat Mar 1 2025,15:00,GMT/+0000,Rangers FC,,,Motherwell FC,2025-03-01T15:00Z
+29,Sat Mar 1 2025,15:00,GMT/+0000,Ross County FC,,,Kilmarnock FC,2025-03-01T15:00Z
+29,Sat Mar 1 2025,15:00,GMT/+0000,St. Mirren FC,,,Celtic FC,2025-03-01T15:00Z
+29,Sat Mar 1 2025,15:00,GMT/+0000,Aberdeen FC,,,Dundee United,2025-03-01T15:00Z
+30,Sat Mar 15 2025,15:00,GMT/+0000,Celtic FC,,,Rangers FC,2025-03-15T15:00Z
+30,Sat Mar 15 2025,15:00,GMT/+0000,Dundee United,,,Dundee FC,2025-03-15T15:00Z
+30,Sat Mar 15 2025,15:00,GMT/+0000,Heart of Midlothian,,,Ross County FC,2025-03-15T15:00Z
+30,Sat Mar 15 2025,15:00,GMT/+0000,Kilmarnock FC,,,Hibernian FC,2025-03-15T15:00Z
+30,Sat Mar 15 2025,15:00,GMT/+0000,Motherwell FC,,,St. Mirren FC,2025-03-15T15:00Z
+30,Sat Mar 15 2025,15:00,GMT/+0000,St. Johnstone FC,,,Aberdeen FC,2025-03-15T15:00Z
+31,Sat Mar 29 2025,15:00,GMT/+0000,Celtic FC,,,Heart of Midlothian,2025-03-29T15:00Z
+31,Sat Mar 29 2025,15:00,GMT/+0000,Dundee FC,,,Rangers FC,2025-03-29T15:00Z
+31,Sat Mar 29 2025,15:00,GMT/+0000,Hibernian FC,,,St. Johnstone FC,2025-03-29T15:00Z
+31,Sat Mar 29 2025,15:00,GMT/+0000,Ross County FC,,,Dundee United,2025-03-29T15:00Z
+31,Sat Mar 29 2025,15:00,GMT/+0000,St. Mirren FC,,,Kilmarnock FC,2025-03-29T15:00Z
+31,Sat Mar 29 2025,15:00,GMT/+0000,Aberdeen FC,,,Motherwell FC,2025-03-29T15:00Z
+32,Sat Apr 5 2025,15:00,BST/+0100,Dundee FC,,,St. Mirren FC,2025-04-05T14:00Z
+32,Sat Apr 5 2025,15:00,BST/+0100,Heart of Midlothian,,,Dundee United,2025-04-05T14:00Z
+32,Sat Apr 5 2025,15:00,BST/+0100,Kilmarnock FC,,,Motherwell FC,2025-04-05T14:00Z
+32,Sat Apr 5 2025,15:00,BST/+0100,Rangers FC,,,Hibernian FC,2025-04-05T14:00Z
+32,Sat Apr 5 2025,15:00,BST/+0100,Ross County FC,,,Aberdeen FC,2025-04-05T14:00Z
+32,Sat Apr 5 2025,15:00,BST/+0100,St. Johnstone FC,,,Celtic FC,2025-04-05T14:00Z
+33,Sat Apr 12 2025,15:00,BST/+0100,Celtic FC,,,Kilmarnock FC,2025-04-12T14:00Z
+33,Sat Apr 12 2025,15:00,BST/+0100,Dundee United,,,St. Johnstone FC,2025-04-12T14:00Z
+33,Sat Apr 12 2025,15:00,BST/+0100,Hibernian FC,,,Dundee FC,2025-04-12T14:00Z
+33,Sat Apr 12 2025,15:00,BST/+0100,Motherwell FC,,,Heart of Midlothian,2025-04-12T14:00Z
+33,Sat Apr 12 2025,15:00,BST/+0100,St. Mirren FC,,,Ross County FC,2025-04-12T14:00Z
+33,Sat Apr 12 2025,15:00,BST/+0100,Aberdeen FC,,,Rangers FC,2025-04-12T14:00Z

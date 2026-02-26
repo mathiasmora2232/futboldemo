@@ -1,0 +1,44 @@
+# Archivos del Sistema Operativo
+.DS_Store
+Thumbs.db
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (si se usa en el futuro)
+node_modules/
+npm-debug.log
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Environment files
+.env
+.env.local
+
+# Backups
+*.backup
+*.bak
+
+# IDE
+*.sublime-workspace
+*.sublime-project
+
+# Package managers
+.pnp.js
+
+# OS temp files
+Thumbs.db
+.DS_Store
+*.tmp
+
+# LocalStorage exports (debugging)
+*.ls-backup

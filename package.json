@@ -1,0 +1,31 @@
+{
+  "name": "global-football-manager-demo",
+  "version": "1.0.0",
+  "description": "Demo web de un juego de gestión de fútbol estilo Football Manager",
+  "main": "index.html",
+  "author": "Desarrollador Senior",
+  "license": "MIT",
+  "keywords": [
+    "football",
+    "manager",
+    "game",
+    "demo",
+    "html5",
+    "css3",
+    "javascript",
+    "es6"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/global-football-manager"
+  },
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000 --directory ."
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

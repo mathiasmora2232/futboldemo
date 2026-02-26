@@ -1,0 +1,553 @@
+Round,Date,Time,Timezone,Team 1,FT,HT,Team 2,UTC
+1,Sat Aug 5 2017,15:00,BST/+0100,Accrington Stanley,3-1,2-0,Colchester United,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Carlisle United,1-2,0-1,Swindon Town,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Chesterfield FC,1-3,0-2,Grimsby Town,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Coventry City,3-0,1-0,Notts County,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Crawley Town,1-3,0-2,Port Vale FC,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Crewe Alexandra,2-2,1-0,Mansfield Town,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Exeter City,1-0,1-0,Cambridge United,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Forest Green Rovers,2-2,2-0,Barnet FC,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Luton Town,8-2,5-1,Yeovil Town,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Morecambe FC,2-1,0-1,Cheltenham Town,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Stevenage FC,3-3,1-0,Newport County,2017-08-05T14:00Z
+1,Sat Aug 5 2017,15:00,BST/+0100,Wycombe Wanderers,2-2,2-1,Lincoln City,2017-08-05T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Barnet FC,1-0,0-0,Luton Town,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Cambridge United,1-2,1-2,Carlisle United,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Cheltenham Town,1-0,1-0,Crawley Town,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Colchester United,1-1,0-0,Stevenage FC,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Grimsby Town,0-2,0-0,Coventry City,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Lincoln City,1-1,0-0,Morecambe FC,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Mansfield Town,2-0,0-0,Forest Green Rovers,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Crewe Alexandra,1-1,1-1,Newport County,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Notts County,2-0,0-0,Chesterfield FC,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Port Vale FC,2-3,0-3,Wycombe Wanderers,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Swindon Town,1-1,0-1,Exeter City,2017-08-12T14:00Z
+2,Sat Aug 12 2017,15:00,BST/+0100,Yeovil Town,3-2,3-1,Accrington Stanley,2017-08-12T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Accrington Stanley,2-1,1-1,Mansfield Town,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Carlisle United,3-0,2-0,Cheltenham Town,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Chesterfield FC,2-0,2-0,Port Vale FC,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Coventry City,0-1,0-0,Newport County,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Crawley Town,0-1,0-0,Cambridge United,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Crewe Alexandra,1-0,0-0,Barnet FC,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Exeter City,1-0,1-0,Lincoln City,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Forest Green Rovers,4-3,2-3,Yeovil Town,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Luton Town,3-0,1-0,Colchester United,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Morecambe FC,0-1,0-1,Swindon Town,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Stevenage FC,3-1,2-0,Grimsby Town,2017-08-19T14:00Z
+3,Sat Aug 19 2017,15:00,BST/+0100,Wycombe Wanderers,2-4,0-2,Notts County,2017-08-19T14:00Z
+4,Fri Aug 25 2017,19:45,BST/+0100,Notts County,2-2,1-0,Accrington Stanley,2017-08-25T18:45Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Barnet FC,0-1,0-1,Stevenage FC,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Cambridge United,0-0,0-0,Morecambe FC,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Cheltenham Town,3-4,2-2,Exeter City,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Colchester United,5-1,2-1,Forest Green Rovers,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Grimsby Town,2-3,0-2,Wycombe Wanderers,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Lincoln City,4-1,1-0,Carlisle United,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Mansfield Town,2-2,1-0,Luton Town,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Newport County,4-1,0-1,Chesterfield FC,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Port Vale FC,0-1,0-1,Crewe Alexandra,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Swindon Town,0-3,0-1,Crawley Town,2017-08-26T14:00Z
+4,Sat Aug 26 2017,15:00,BST/+0100,Yeovil Town,2-0,1-0,Coventry City,2017-08-26T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Cambridge United,1-0,0-0,Colchester United,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Carlisle United,1-1,1-0,Mansfield Town,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Cheltenham Town,0-1,0-0,Stevenage FC,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Chesterfield FC,0-0,0-0,Coventry City,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Crawley Town,2-0,1-0,Yeovil Town,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Exeter City,1-0,0-0,Newport County,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Grimsby Town,1-0,1-0,Crewe Alexandra,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Lincoln City,0-0,0-0,Luton Town,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Morecambe FC,1-2,0-1,Accrington Stanley,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Port Vale FC,0-1,0-0,Notts County,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Swindon Town,1-4,0-2,Barnet FC,2017-09-02T14:00Z
+5,Sat Sep 2 2017,15:00,BST/+0100,Wycombe Wanderers,3-1,3-0,Forest Green Rovers,2017-09-02T14:00Z
+6,Sat Sep 9 2017,13:00,BST/+0100,Mansfield Town,4-1,1-0,Grimsby Town,2017-09-09T12:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Accrington Stanley,3-0,2-0,Carlisle United,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Barnet FC,3-1,1-0,Cambridge United,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Colchester United,3-1,3-0,Crawley Town,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Coventry City,1-0,1-0,Port Vale FC,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Crewe Alexandra,5-1,1-0,Chesterfield FC,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Forest Green Rovers,1-3,0-2,Exeter City,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Luton Town,0-3,0-1,Swindon Town,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Newport County,0-0,0-0,Wycombe Wanderers,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Notts County,2-0,1-0,Morecambe FC,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Stevenage FC,1-2,1-0,Lincoln City,2017-09-09T14:00Z
+6,Sat Sep 9 2017,15:00,BST/+0100,Yeovil Town,0-0,0-0,Cheltenham Town,2017-09-09T14:00Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Accrington Stanley,1-2,1-1,Grimsby Town,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Colchester United,1-1,0-1,Chesterfield FC,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Coventry City,2-0,0-0,Carlisle United,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Crewe Alexandra,0-1,0-1,Cambridge United,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Forest Green Rovers,0-1,0-0,Lincoln City,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Luton Town,2-0,1-0,Port Vale FC,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Mansfield Town,0-0,0-0,Wycombe Wanderers,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Newport County,1-0,1-0,Cheltenham Town,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Notts County,1-0,1-0,Swindon Town,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Stevenage FC,1-1,1-0,Crawley Town,2017-09-12T18:45Z
+7,Tue Sep 12 2017,19:45,BST/+0100,Yeovil Town,2-2,1-0,Morecambe FC,2017-09-12T18:45Z
+7,Tue Sep 12 2017,20:00,BST/+0100,Barnet FC,1-2,0-0,Exeter City,2017-09-12T19:00Z
+8,Sat Sep 16 2017,13:00,BST/+0100,Lincoln City,0-1,0-0,Mansfield Town,2017-09-16T12:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Cambridge United,2-1,1-0,Coventry City,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Carlisle United,1-1,0-1,Barnet FC,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Cheltenham Town,3-1,2-1,Colchester United,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Chesterfield FC,1-2,0-0,Accrington Stanley,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Crawley Town,0-1,0-0,Notts County,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Exeter City,3-0,2-0,Crewe Alexandra,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Grimsby Town,2-1,1-1,Yeovil Town,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Morecambe FC,2-1,1-1,Newport County,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Port Vale FC,1-1,1-0,Forest Green Rovers,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Swindon Town,3-2,2-0,Stevenage FC,2017-09-16T14:00Z
+8,Sat Sep 16 2017,15:00,BST/+0100,Wycombe Wanderers,1-2,1-0,Luton Town,2017-09-16T14:00Z
+9,Fri Sep 22 2017,19:45,BST/+0100,Forest Green Rovers,0-2,0-0,Swindon Town,2017-09-22T18:45Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Accrington Stanley,1-1,1-1,Cheltenham Town,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Barnet FC,1-2,0-0,Crawley Town,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Colchester United,1-2,1-1,Wycombe Wanderers,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Coventry City,2-0,0-0,Exeter City,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Crewe Alexandra,0-5,0-1,Carlisle United,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Luton Town,1-0,0-0,Chesterfield FC,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Mansfield Town,2-1,0-0,Cambridge United,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Newport County,1-0,0-0,Grimsby Town,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Notts County,4-1,1-0,Lincoln City,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Stevenage FC,2-1,1-1,Morecambe FC,2017-09-23T14:00Z
+9,Sat Sep 23 2017,15:00,BST/+0100,Yeovil Town,1-1,0-1,Port Vale FC,2017-09-23T14:00Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Cambridge United,3-0,1-0,Forest Green Rovers,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Carlisle United,0-2,0-0,Stevenage FC,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Cheltenham Town,3-0,0-0,Mansfield Town,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Chesterfield FC,2-3,0-2,Yeovil Town,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Crawley Town,1-2,1-1,Newport County,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Exeter City,0-3,0-1,Notts County,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Grimsby Town,2-2,1-1,Colchester United,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Lincoln City,2-1,2-0,Barnet FC,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Morecambe FC,0-0,0-0,Luton Town,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Port Vale FC,1-2,1-1,Accrington Stanley,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Swindon Town,1-2,1-1,Coventry City,2017-09-26T18:45Z
+10,Tue Sep 26 2017,19:45,BST/+0100,Wycombe Wanderers,3-2,1-1,Crewe Alexandra,2017-09-26T18:45Z
+11,Sat Sep 30 2017,13:00,BST/+0100,Grimsby Town,0-0,0-0,Lincoln City,2017-09-30T12:00Z
+11,Sat Sep 30 2017,13:00,BST/+0100,Mansfield Town,3-1,0-0,Notts County,2017-09-30T12:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Chesterfield FC,0-2,0-1,Cheltenham Town,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Coventry City,1-0,1-0,Crewe Alexandra,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Crawley Town,0-1,0-0,Carlisle United,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Exeter City,4-1,3-1,Morecambe FC,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Forest Green Rovers,0-1,0-0,Accrington Stanley,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Luton Town,3-1,3-0,Newport County,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Stevenage FC,2-0,1-0,Port Vale FC,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Swindon Town,2-0,1-0,Cambridge United,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Wycombe Wanderers,3-1,1-0,Barnet FC,2017-09-30T14:00Z
+11,Sat Sep 30 2017,15:00,BST/+0100,Yeovil Town,0-1,0-1,Colchester United,2017-09-30T14:00Z
+12,Sat Oct 7 2017,12:30,BST/+0100,Barnet FC,0-0,0-0,Coventry City,2017-10-07T11:30Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Accrington Stanley,0-2,0-2,Luton Town,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Cambridge United,1-3,0-0,Wycombe Wanderers,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Carlisle United,0-1,0-0,Exeter City,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Cheltenham Town,2-1,1-0,Swindon Town,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Colchester United,2-0,2-0,Mansfield Town,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Crewe Alexandra,1-0,0-0,Stevenage FC,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Lincoln City,2-1,2-0,Chesterfield FC,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Morecambe FC,0-1,0-1,Crawley Town,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Newport County,2-0,1-0,Yeovil Town,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Notts County,1-1,0-1,Forest Green Rovers,2017-10-07T14:00Z
+12,Sat Oct 7 2017,15:00,BST/+0100,Port Vale FC,1-2,1-0,Grimsby Town,2017-10-07T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Accrington Stanley,1-0,1-0,Coventry City,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Chesterfield FC,0-2,0-1,Morecambe FC,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Colchester United,0-1,0-0,Carlisle United,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Forest Green Rovers,0-4,0-2,Newport County,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Grimsby Town,0-0,0-0,Crawley Town,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Lincoln City,0-0,0-0,Cambridge United,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Luton Town,7-1,3-1,Stevenage FC,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Mansfield Town,1-3,0-2,Swindon Town,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Notts County,2-1,1-0,Barnet FC,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Port Vale FC,3-1,1-0,Cheltenham Town,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Wycombe Wanderers,0-0,0-0,Exeter City,2017-10-14T14:00Z
+13,Sat Oct 14 2017,15:00,BST/+0100,Yeovil Town,2-0,1-0,Crewe Alexandra,2017-10-14T14:00Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Cambridge United,2-1,2-0,Yeovil Town,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Carlisle United,3-3,2-1,Wycombe Wanderers,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Cheltenham Town,2-3,1-3,Grimsby Town,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Coventry City,0-1,0-1,Forest Green Rovers,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Crawley Town,0-2,0-0,Chesterfield FC,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Crewe Alexandra,2-0,1-0,Notts County,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Exeter City,1-4,1-1,Luton Town,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Morecambe FC,0-3,0-1,Port Vale FC,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Newport County,1-2,0-0,Colchester United,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Stevenage FC,3-2,0-1,Accrington Stanley,2017-10-17T18:45Z
+14,Tue Oct 17 2017,19:45,BST/+0100,Swindon Town,0-1,0-0,Lincoln City,2017-10-17T18:45Z
+14,Tue Oct 17 2017,20:00,BST/+0100,Barnet FC,1-1,0-1,Mansfield Town,2017-10-17T19:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Barnet FC,1-1,1-0,Yeovil Town,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Cambridge United,2-1,0-0,Chesterfield FC,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Carlisle United,1-1,1-0,Notts County,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Cheltenham Town,1-0,1-0,Lincoln City,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Coventry City,0-0,0-0,Colchester United,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Crawley Town,0-0,0-0,Luton Town,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Crewe Alexandra,0-2,0-2,Accrington Stanley,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Exeter City,0-1,0-1,Port Vale FC,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Morecambe FC,0-0,0-0,Grimsby Town,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Newport County,1-1,0-1,Mansfield Town,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Stevenage FC,1-2,1-0,Forest Green Rovers,2017-10-21T14:00Z
+15,Sat Oct 21 2017,15:00,BST/+0100,Swindon Town,1-0,1-0,Wycombe Wanderers,2017-10-21T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Accrington Stanley,4-1,1-0,Barnet FC,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Chesterfield FC,2-2,1-0,Carlisle United,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Colchester United,3-1,1-1,Crewe Alexandra,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Forest Green Rovers,2-0,1-0,Morecambe FC,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Grimsby Town,0-0,0-0,Cambridge United,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Lincoln City,0-0,0-0,Crawley Town,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Luton Town,0-3,0-1,Coventry City,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Mansfield Town,1-1,1-0,Exeter City,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Notts County,3-0,1-0,Newport County,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Port Vale FC,0-3,0-0,Swindon Town,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Wycombe Wanderers,3-3,0-1,Cheltenham Town,2017-10-28T14:00Z
+16,Sat Oct 28 2017,15:00,BST/+0100,Yeovil Town,3-0,3-0,Stevenage FC,2017-10-28T14:00Z
+17,Fri Nov 10 2017,19:45,GMT/+0000,Newport County,1-1,0-0,Port Vale FC,2017-11-10T19:45Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Barnet FC,0-1,0-0,Colchester United,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Cambridge United,0-0,0-0,Accrington Stanley,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Carlisle United,4-0,2-0,Yeovil Town,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Cheltenham Town,2-2,1-1,Luton Town,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Coventry City,0-1,0-0,Mansfield Town,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Crawley Town,1-1,0-0,Forest Green Rovers,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Crewe Alexandra,1-4,1-0,Lincoln City,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Exeter City,2-0,1-0,Grimsby Town,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Morecambe FC,2-1,2-0,Wycombe Wanderers,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Stevenage FC,1-1,1-0,Notts County,2017-11-11T15:00Z
+17,Sat Nov 11 2017,15:00,GMT/+0000,Swindon Town,2-2,0-0,Chesterfield FC,2017-11-11T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Accrington Stanley,1-1,0-0,Newport County,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Chesterfield FC,1-0,0-0,Exeter City,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Colchester United,0-0,0-0,Morecambe FC,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Forest Green Rovers,3-2,1-1,Crewe Alexandra,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Grimsby Town,0-1,0-0,Carlisle United,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Lincoln City,1-2,1-0,Coventry City,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Luton Town,7-0,4-0,Cambridge United,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Mansfield Town,1-0,1-0,Stevenage FC,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Notts County,3-1,1-1,Cheltenham Town,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Port Vale FC,1-0,0-0,Barnet FC,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Wycombe Wanderers,4-0,0-0,Crawley Town,2017-11-18T15:00Z
+18,Sat Nov 18 2017,15:00,GMT/+0000,Yeovil Town,1-2,1-0,Swindon Town,2017-11-18T15:00Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Accrington Stanley,1-0,0-0,Wycombe Wanderers,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Cheltenham Town,0-0,0-0,Cambridge United,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Chesterfield FC,3-2,1-0,Forest Green Rovers,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Colchester United,1-0,1-0,Lincoln City,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Crawley Town,3-1,1-1,Exeter City,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Grimsby Town,3-2,1-2,Swindon Town,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Luton Town,3-0,2-0,Carlisle United,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Morecambe FC,0-1,0-0,Crewe Alexandra,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Newport County,1-2,0-0,Barnet FC,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Port Vale FC,0-4,0-1,Mansfield Town,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Stevenage FC,1-1,0-1,Coventry City,2017-11-21T19:45Z
+19,Tue Nov 21 2017,19:45,GMT/+0000,Yeovil Town,1-1,0-1,Notts County,2017-11-21T19:45Z
+20,Sat Nov 25 2017,13:00,GMT/+0000,Mansfield Town,2-2,1-1,Chesterfield FC,2017-11-25T13:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Barnet FC,0-2,0-1,Grimsby Town,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Cambridge United,1-0,0-0,Stevenage FC,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Carlisle United,1-1,0-0,Morecambe FC,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Coventry City,1-1,0-1,Crawley Town,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Crewe Alexandra,1-2,0-0,Luton Town,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Exeter City,2-0,1-0,Accrington Stanley,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Forest Green Rovers,1-1,1-1,Cheltenham Town,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Lincoln City,3-1,1-1,Port Vale FC,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Notts County,2-1,0-0,Colchester United,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Swindon Town,0-1,0-0,Newport County,2017-11-25T15:00Z
+20,Sat Nov 25 2017,15:00,GMT/+0000,Wycombe Wanderers,2-1,2-1,Yeovil Town,2017-11-25T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Cheltenham Town,1-0,0-0,Crewe Alexandra,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Chesterfield FC,2-1,0-1,Barnet FC,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Colchester United,3-1,3-0,Exeter City,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Crawley Town,2-0,0-0,Mansfield Town,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Grimsby Town,1-0,1-0,Forest Green Rovers,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Luton Town,1-1,1-0,Notts County,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Morecambe FC,2-0,1-0,Coventry City,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Newport County,3-3,1-0,Carlisle United,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Port Vale FC,2-0,1-0,Cambridge United,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Stevenage FC,0-0,0-0,Wycombe Wanderers,2017-12-09T15:00Z
+21,Sat Dec 9 2017,15:00,GMT/+0000,Yeovil Town,0-2,0-0,Lincoln City,2017-12-09T15:00Z
+22,Fri Dec 15 2017,19:45,GMT/+0000,Swindon Town,2-3,1-1,Colchester United,2017-12-15T19:45Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Wycombe Wanderers,1-0,0-0,Chesterfield FC,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Barnet FC,2-1,2-0,Morecambe FC,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Cambridge United,1-2,0-1,Newport County,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Carlisle United,1-2,0-0,Port Vale FC,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Coventry City,2-1,1-1,Cheltenham Town,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Crewe Alexandra,3-0,2-0,Crawley Town,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Exeter City,2-1,0-0,Stevenage FC,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Forest Green Rovers,0-2,0-1,Luton Town,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Lincoln City,2-0,1-0,Accrington Stanley,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Mansfield Town,0-0,0-0,Yeovil Town,2017-12-16T15:00Z
+22,Sat Dec 16 2017,15:00,GMT/+0000,Notts County,0-0,0-0,Grimsby Town,2017-12-16T15:00Z
+23,Fri Dec 22 2017,19:45,GMT/+0000,Coventry City,3-2,2-1,Wycombe Wanderers,2017-12-22T19:45Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Yeovil Town,3-1,1-0,Exeter City,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Accrington Stanley,2-3,1-3,Crawley Town,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Barnet FC,0-2,0-2,Cheltenham Town,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Colchester United,1-1,1-0,Port Vale FC,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Crewe Alexandra,0-3,0-3,Swindon Town,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Forest Green Rovers,0-1,0-1,Carlisle United,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Luton Town,2-0,1-0,Grimsby Town,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Mansfield Town,2-1,1-0,Morecambe FC,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Newport County,0-0,0-0,Lincoln City,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Notts County,3-3,0-1,Cambridge United,2017-12-23T15:00Z
+23,Sat Dec 23 2017,15:00,GMT/+0000,Stevenage FC,5-1,3-1,Chesterfield FC,2017-12-23T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Wycombe Wanderers,2-0,1-0,Newport County,2017-12-26T15:00Z
+24,Tue Dec 26 2017,13:00,GMT/+0000,Grimsby Town,1-1,1-0,Mansfield Town,2017-12-26T13:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Cambridge United,1-0,0-0,Barnet FC,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Carlisle United,3-1,1-0,Accrington Stanley,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Cheltenham Town,0-2,0-0,Yeovil Town,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Chesterfield FC,0-2,0-2,Crewe Alexandra,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Crawley Town,0-2,0-1,Colchester United,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Lincoln City,3-0,1-0,Stevenage FC,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Morecambe FC,1-4,0-2,Notts County,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Port Vale FC,1-0,0-0,Coventry City,2017-12-26T15:00Z
+24,Tue Dec 26 2017,15:00,GMT/+0000,Swindon Town,0-5,0-0,Luton Town,2017-12-26T15:00Z
+25,Fri Dec 29 2017,19:45,GMT/+0000,Morecambe FC,4-3,0-2,Yeovil Town,2017-12-29T19:45Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Port Vale FC,4-0,1-0,Luton Town,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Swindon Town,1-0,0-0,Notts County,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Cambridge United,3-1,2-1,Crewe Alexandra,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Carlisle United,0-1,0-0,Coventry City,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Cheltenham Town,1-1,0-0,Newport County,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Chesterfield FC,0-0,0-0,Colchester United,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Crawley Town,1-0,1-0,Stevenage FC,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Exeter City,2-1,1-0,Barnet FC,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Grimsby Town,0-3,0-0,Accrington Stanley,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Lincoln City,2-1,1-1,Forest Green Rovers,2017-12-30T15:00Z
+25,Sat Dec 30 2017,15:00,GMT/+0000,Wycombe Wanderers,1-2,1-0,Mansfield Town,2017-12-30T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Barnet FC,1-2,1-2,Swindon Town,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Stevenage FC,4-1,2-1,Cheltenham Town,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Notts County,1-0,0-0,Port Vale FC,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Colchester United,0-0,0-0,Cambridge United,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Coventry City,1-0,1-0,Chesterfield FC,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Crewe Alexandra,2-0,2-0,Grimsby Town,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Forest Green Rovers,1-2,0-2,Wycombe Wanderers,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Luton Town,4-2,2-2,Lincoln City,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Mansfield Town,3-1,2-0,Carlisle United,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Newport County,2-1,1-0,Exeter City,2018-01-01T15:00Z
+26,Mon Jan 1 2018,15:00,GMT/+0000,Yeovil Town,1-2,1-1,Crawley Town,2018-01-01T15:00Z
+27,Sat Jan 6 2018,15:00,GMT/+0000,Colchester United,1-4,1-0,Cheltenham Town,2018-01-06T15:00Z
+33,Sat Jan 6 2018,15:00,GMT/+0000,Grimsby Town,0-2,0-2,Morecambe FC,2018-01-06T15:00Z
+27,Sat Jan 6 2018,15:00,GMT/+0000,Accrington Stanley,4-0,2-0,Chesterfield FC,2018-01-06T15:00Z
+27,Sat Jan 6 2018,15:00,GMT/+0000,Forest Green Rovers,1-0,0-0,Port Vale FC,2018-01-06T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Wycombe Wanderers,3-1,2-0,Colchester United,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Cheltenham Town,0-2,0-1,Accrington Stanley,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Swindon Town,1-0,0-0,Forest Green Rovers,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Port Vale FC,1-1,0-1,Yeovil Town,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Morecambe FC,1-1,1-0,Stevenage FC,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Lincoln City,2-2,1-1,Notts County,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Grimsby Town,1-2,0-1,Newport County,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Exeter City,1-0,1-0,Coventry City,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Crawley Town,2-0,0-0,Barnet FC,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Chesterfield FC,2-0,2-0,Luton Town,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Carlisle United,1-0,0-0,Crewe Alexandra,2018-01-13T15:00Z
+28,Sat Jan 13 2018,15:00,GMT/+0000,Cambridge United,0-0,0-0,Mansfield Town,2018-01-13T15:00Z
+29,Fri Jan 19 2018,19:45,GMT/+0000,Newport County,2-1,2-0,Crawley Town,2018-01-19T19:45Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Stevenage FC,0-0,0-0,Carlisle United,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Barnet FC,1-1,1-0,Lincoln City,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Colchester United,1-1,0-1,Grimsby Town,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Coventry City,3-1,2-1,Swindon Town,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Crewe Alexandra,2-3,1-0,Wycombe Wanderers,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Forest Green Rovers,5-2,2-2,Cambridge United,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Luton Town,1-0,0-0,Morecambe FC,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Mansfield Town,3-2,1-1,Cheltenham Town,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Notts County,1-2,0-2,Exeter City,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Yeovil Town,1-2,0-0,Chesterfield FC,2018-01-20T15:00Z
+29,Sat Jan 20 2018,15:00,GMT/+0000,Accrington Stanley,3-2,0-2,Port Vale FC,2018-01-20T15:00Z
+27,Tue Jan 23 2018,19:45,GMT/+0000,Notts County,1-2,0-1,Crawley Town,2018-01-23T19:45Z
+27,Tue Jan 23 2018,19:45,GMT/+0000,Newport County,1-1,1-0,Morecambe FC,2018-01-23T19:45Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Chesterfield FC,0-1,0-0,Stevenage FC,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Swindon Town,4-3,1-2,Crewe Alexandra,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Carlisle United,1-0,1-0,Forest Green Rovers,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Morecambe FC,1-2,1-0,Mansfield Town,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Crawley Town,2-1,2-0,Accrington Stanley,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Cheltenham Town,1-1,0-1,Barnet FC,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Port Vale FC,2-2,1-2,Colchester United,2018-01-27T15:00Z
+30,Sat Jan 27 2018,15:00,GMT/+0000,Grimsby Town,0-1,0-0,Luton Town,2018-01-27T15:00Z
+27,Tue Jan 30 2018,19:45,GMT/+0000,Luton Town,2-3,1-2,Wycombe Wanderers,2018-01-30T19:45Z
+27,Tue Jan 30 2018,19:45,GMT/+0000,Stevenage FC,0-1,0-1,Swindon Town,2018-01-30T19:45Z
+27,Tue Jan 30 2018,19:45,GMT/+0000,Yeovil Town,3-0,1-0,Grimsby Town,2018-01-30T19:45Z
+30,Tue Jan 30 2018,19:45,GMT/+0000,Lincoln City,3-1,1-1,Newport County,2018-01-30T19:45Z
+27,Tue Jan 30 2018,19:45,GMT/+0000,Coventry City,3-1,2-0,Cambridge United,2018-01-30T19:45Z
+24,Wed Jan 31 2018,19:45,GMT/+0000,Exeter City,2-0,0-0,Forest Green Rovers,2018-01-31T19:45Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Yeovil Town,2-0,0-0,Cambridge United,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Wycombe Wanderers,4-3,2-0,Carlisle United,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Grimsby Town,1-1,1-0,Cheltenham Town,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Port Vale FC,0-0,0-0,Morecambe FC,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Notts County,4-1,2-1,Crewe Alexandra,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Mansfield Town,3-1,1-0,Barnet FC,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Luton Town,1-0,1-0,Exeter City,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Accrington Stanley,3-2,1-2,Stevenage FC,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Chesterfield FC,1-2,1-0,Crawley Town,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Colchester United,2-0,0-0,Newport County,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Forest Green Rovers,2-1,1-0,Coventry City,2018-02-03T15:00Z
+31,Sat Feb 3 2018,15:00,GMT/+0000,Lincoln City,2-2,1-2,Swindon Town,2018-02-03T15:00Z
+21,Tue Feb 6 2018,19:45,GMT/+0000,Accrington Stanley,2-1,1-0,Swindon Town,2018-02-06T19:45Z
+32,Fri Feb 9 2018,19:45,GMT/+0000,Cambridge United,0-0,0-0,Lincoln City,2018-02-09T19:45Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Crewe Alexandra,0-0,0-0,Yeovil Town,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Crawley Town,3-0,1-0,Grimsby Town,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Coventry City,0-2,0-1,Accrington Stanley,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Cheltenham Town,5-1,2-1,Port Vale FC,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Exeter City,1-1,1-0,Wycombe Wanderers,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Stevenage FC,1-1,0-0,Luton Town,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Barnet FC,1-0,0-0,Notts County,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Carlisle United,1-1,0-1,Colchester United,2018-02-10T15:00Z
+32,Sat Feb 10 2018,15:00,GMT/+0000,Swindon Town,1-0,1-0,Mansfield Town,2018-02-10T15:00Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Mansfield Town,5-0,4-0,Newport County,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Notts County,2-1,2-0,Carlisle United,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Wycombe Wanderers,3-2,2-1,Swindon Town,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Chesterfield FC,2-3,1-1,Cambridge United,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Luton Town,4-1,2-0,Crawley Town,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Lincoln City,1-0,1-0,Cheltenham Town,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Forest Green Rovers,3-1,1-1,Stevenage FC,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Colchester United,2-1,1-0,Coventry City,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Accrington Stanley,1-0,1-0,Crewe Alexandra,2018-02-13T19:45Z
+33,Tue Feb 13 2018,19:45,GMT/+0000,Yeovil Town,2-0,1-0,Barnet FC,2018-02-13T19:45Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Swindon Town,3-2,2-2,Port Vale FC,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Cheltenham Town,0-2,0-2,Wycombe Wanderers,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Crawley Town,3-1,1-0,Lincoln City,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Crewe Alexandra,1-0,0-0,Colchester United,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Exeter City,0-1,0-1,Mansfield Town,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Morecambe FC,1-1,0-1,Forest Green Rovers,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Newport County,0-0,0-0,Notts County,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Stevenage FC,4-1,2-0,Yeovil Town,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Carlisle United,2-0,1-0,Chesterfield FC,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Cambridge United,3-1,1-0,Grimsby Town,2018-02-17T15:00Z
+34,Sat Feb 17 2018,15:00,GMT/+0000,Barnet FC,1-1,1-0,Accrington Stanley,2018-02-17T15:00Z
+30,Tue Feb 20 2018,19:45,GMT/+0000,Cambridge United,1-0,1-0,Notts County,2018-02-20T19:45Z
+27,Tue Feb 20 2018,19:45,GMT/+0000,Crewe Alexandra,1-2,0-0,Exeter City,2018-02-20T19:45Z
+27,Tue Feb 20 2018,20:00,GMT/+0000,Barnet FC,1-3,0-0,Carlisle United,2018-02-20T20:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Mansfield Town,1-1,1-0,Coventry City,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Lincoln City,1-4,1-1,Crewe Alexandra,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Wycombe Wanderers,2-4,0-3,Morecambe FC,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Luton Town,2-2,0-1,Cheltenham Town,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Yeovil Town,0-1,0-0,Carlisle United,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Port Vale FC,0-0,0-0,Newport County,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Notts County,2-0,0-0,Stevenage FC,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Grimsby Town,0-1,0-1,Exeter City,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Accrington Stanley,1-0,0-0,Cambridge United,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Chesterfield FC,2-1,1-0,Swindon Town,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Colchester United,0-1,0-0,Barnet FC,2018-02-24T15:00Z
+35,Sat Feb 24 2018,15:00,GMT/+0000,Forest Green Rovers,2-0,2-0,Crawley Town,2018-02-24T15:00Z
+30,Tue Feb 27 2018,19:45,GMT/+0000,Wycombe Wanderers,0-1,0-0,Coventry City,2018-02-27T19:45Z
+36,Sat Mar 3 2018,15:00,GMT/+0000,Cambridge United,1-1,0-1,Luton Town,2018-03-03T15:00Z
+36,Sat Mar 3 2018,15:00,GMT/+0000,Carlisle United,2-0,1-0,Grimsby Town,2018-03-03T15:00Z
+32,Tue Mar 6 2018,19:45,GMT/+0000,Newport County,3-3,3-2,Forest Green Rovers,2018-03-06T19:45Z
+26,Tue Mar 6 2018,19:45,GMT/+0000,Accrington Stanley,1-0,1-0,Morecambe FC,2018-03-06T19:45Z
+36,Tue Mar 6 2018,19:45,GMT/+0000,Cheltenham Town,1-1,0-1,Notts County,2018-03-06T19:45Z
+27,Tue Mar 6 2018,19:45,GMT/+0000,Mansfield Town,1-1,0-0,Lincoln City,2018-03-06T19:45Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Swindon Town,0-3,0-1,Cheltenham Town,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Wycombe Wanderers,1-1,1-0,Cambridge United,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Yeovil Town,0-2,0-0,Newport County,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Chesterfield FC,1-3,1-1,Lincoln City,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Coventry City,1-0,0-0,Barnet FC,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Stevenage FC,2-2,1-0,Crewe Alexandra,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Mansfield Town,1-1,1-0,Colchester United,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Luton Town,1-2,0-1,Accrington Stanley,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Grimsby Town,1-1,0-1,Port Vale FC,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Crawley Town,1-1,0-0,Morecambe FC,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Forest Green Rovers,1-2,0-1,Notts County,2018-03-10T15:00Z
+37,Sat Mar 10 2018,15:00,GMT/+0000,Exeter City,1-1,1-0,Carlisle United,2018-03-10T15:00Z
+30,Tue Mar 13 2018,19:45,GMT/+0000,Exeter City,0-0,0-0,Yeovil Town,2018-03-13T19:45Z
+36,Tue Mar 13 2018,20:00,GMT/+0000,Barnet FC,1-1,1-0,Port Vale FC,2018-03-13T20:00Z
+34,Tue Mar 13 2018,19:45,GMT/+0000,Coventry City,2-2,2-0,Luton Town,2018-03-13T19:45Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Accrington Stanley,3-1,1-0,Forest Green Rovers,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Barnet FC,0-2,0-0,Wycombe Wanderers,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Cambridge United,1-3,0-1,Swindon Town,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Cheltenham Town,1-1,0-0,Chesterfield FC,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Colchester United,0-1,0-1,Yeovil Town,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Crewe Alexandra,1-2,1-2,Coventry City,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Morecambe FC,2-1,1-1,Exeter City,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Newport County,1-1,1-1,Luton Town,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Port Vale FC,2-2,0-1,Stevenage FC,2018-03-17T15:00Z
+38,Sat Mar 17 2018,15:00,GMT/+0000,Carlisle United,2-2,1-0,Crawley Town,2018-03-17T15:00Z
+38,Sat Mar 17 2018,13:00,GMT/+0000,Lincoln City,3-1,3-1,Grimsby Town,2018-03-17T13:00Z
+38,Sat Mar 17 2018,13:00,GMT/+0000,Notts County,1-1,1-0,Mansfield Town,2018-03-17T13:00Z
+36,Tue Mar 20 2018,19:45,GMT/+0000,Crewe Alexandra,3-1,1-0,Forest Green Rovers,2018-03-20T19:45Z
+36,Tue Mar 20 2018,19:45,GMT/+0000,Morecambe FC,0-0,0-0,Colchester United,2018-03-20T19:45Z
+33,Tue Mar 20 2018,19:45,GMT/+0000,Port Vale FC,0-1,0-1,Exeter City,2018-03-20T19:45Z
+36,Wed Mar 21 2018,19:45,GMT/+0000,Crawley Town,2-3,1-2,Wycombe Wanderers,2018-03-21T19:45Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Stevenage FC,0-1,0-1,Colchester United,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Wycombe Wanderers,0-0,0-0,Port Vale FC,2018-03-24T15:00Z
+39,Sat Mar 24 2018,17:15,GMT/+0000,Luton Town,2-0,0-0,Barnet FC,2018-03-24T17:15Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Exeter City,3-1,2-1,Swindon Town,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Morecambe FC,0-0,0-0,Lincoln City,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Forest Green Rovers,2-0,0-0,Mansfield Town,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Carlisle United,1-1,0-0,Cambridge United,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Coventry City,4-0,1-0,Grimsby Town,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Crawley Town,3-5,0-3,Cheltenham Town,2018-03-24T15:00Z
+39,Sat Mar 24 2018,15:00,GMT/+0000,Newport County,1-2,0-1,Crewe Alexandra,2018-03-24T15:00Z
+39,Sun Mar 25 2018,13:30,BST/+0100,Chesterfield FC,3-1,2-0,Notts County,2018-03-25T12:30Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Swindon Town,1-1,0-1,Morecambe FC,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Newport County,1-1,1-0,Coventry City,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Notts County,0-0,0-0,Wycombe Wanderers,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Port Vale FC,2-1,1-0,Chesterfield FC,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Mansfield Town,0-1,0-0,Accrington Stanley,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Lincoln City,3-2,0-1,Exeter City,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Grimsby Town,0-0,0-0,Stevenage FC,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Barnet FC,2-1,0-0,Crewe Alexandra,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Cambridge United,3-1,2-0,Crawley Town,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Cheltenham Town,0-1,0-0,Carlisle United,2018-03-30T14:00Z
+40,Fri Mar 30 2018,15:00,BST/+0100,Colchester United,2-1,2-0,Luton Town,2018-03-30T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Wycombe Wanderers,2-1,0-1,Grimsby Town,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Stevenage FC,4-1,1-0,Barnet FC,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Luton Town,2-1,0-1,Mansfield Town,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Forest Green Rovers,1-2,1-1,Colchester United,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Exeter City,2-1,1-1,Cheltenham Town,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Crewe Alexandra,2-2,1-1,Port Vale FC,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Crawley Town,1-1,1-0,Swindon Town,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Coventry City,2-6,0-3,Yeovil Town,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Accrington Stanley,1-0,1-0,Notts County,2018-04-02T14:00Z
+41,Mon Apr 2 2018,15:00,BST/+0100,Carlisle United,0-1,0-1,Lincoln City,2018-04-02T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Notts County,2-1,0-0,Coventry City,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Swindon Town,0-0,0-0,Carlisle United,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Port Vale FC,1-2,1-1,Crawley Town,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Newport County,0-1,0-1,Stevenage FC,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Mansfield Town,3-4,1-4,Crewe Alexandra,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Grimsby Town,1-0,0-0,Chesterfield FC,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Colchester United,0-1,0-0,Accrington Stanley,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Cheltenham Town,3-0,0-0,Morecambe FC,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Cambridge United,2-3,1-0,Exeter City,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Barnet FC,1-0,1-0,Forest Green Rovers,2018-04-07T14:00Z
+42,Sat Apr 7 2018,15:00,BST/+0100,Yeovil Town,0-3,0-3,Luton Town,2018-04-07T14:00Z
+32,Tue Apr 10 2018,19:45,BST/+0100,Morecambe FC,2-2,2-0,Chesterfield FC,2018-04-10T18:45Z
+36,Tue Apr 10 2018,19:45,BST/+0100,Stevenage FC,1-1,1-0,Mansfield Town,2018-04-10T18:45Z
+36,Tue Apr 10 2018,19:45,BST/+0100,Swindon Town,2-2,1-0,Yeovil Town,2018-04-10T18:45Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Morecambe FC,1-1,1-1,Carlisle United,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Newport County,2-1,2-0,Swindon Town,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Port Vale FC,1-0,0-0,Lincoln City,2018-04-14T14:00Z
+43,Sat Apr 14 2018,13:00,BST/+0100,Chesterfield FC,0-1,0-0,Mansfield Town,2018-04-14T12:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Stevenage FC,0-2,0-0,Cambridge United,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Yeovil Town,0-1,0-0,Wycombe Wanderers,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Luton Town,3-1,2-1,Crewe Alexandra,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Grimsby Town,2-2,1-0,Barnet FC,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Crawley Town,1-2,1-1,Coventry City,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Accrington Stanley,1-1,1-1,Exeter City,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Cheltenham Town,0-1,0-1,Forest Green Rovers,2018-04-14T14:00Z
+43,Sat Apr 14 2018,15:00,BST/+0100,Colchester United,1-3,1-0,Notts County,2018-04-14T14:00Z
+42,Tue Apr 17 2018,19:45,BST/+0100,Lincoln City,0-0,0-0,Wycombe Wanderers,2018-04-17T18:45Z
+39,Tue Apr 17 2018,19:45,BST/+0100,Accrington Stanley,2-0,2-0,Yeovil Town,2018-04-17T18:45Z
+36,Tue Apr 17 2018,19:45,BST/+0100,Exeter City,2-1,1-0,Chesterfield FC,2018-04-17T18:45Z
+44,Fri Apr 20 2018,19:45,BST/+0100,Coventry City,3-1,3-1,Stevenage FC,2018-04-20T18:45Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Mansfield Town,1-1,0-0,Port Vale FC,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Notts County,4-1,1-0,Yeovil Town,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Wycombe Wanderers,0-4,0-2,Accrington Stanley,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Barnet FC,2-0,1-0,Newport County,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Lincoln City,2-1,0-0,Colchester United,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Forest Green Rovers,4-1,1-1,Chesterfield FC,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Cambridge United,4-3,1-2,Cheltenham Town,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Carlisle United,1-1,1-0,Luton Town,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Crewe Alexandra,1-0,0-0,Morecambe FC,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Exeter City,2-2,1-1,Crawley Town,2018-04-21T14:00Z
+44,Sat Apr 21 2018,15:00,BST/+0100,Swindon Town,0-1,0-1,Grimsby Town,2018-04-21T14:00Z
+36,Tue Apr 24 2018,19:45,BST/+0100,Coventry City,2-4,2-3,Lincoln City,2018-04-24T18:45Z
+36,Tue Apr 24 2018,19:45,BST/+0100,Newport County,2-1,1-0,Accrington Stanley,2018-04-24T18:45Z
+41,Tue Apr 24 2018,19:45,BST/+0100,Morecambe FC,0-0,0-0,Cambridge United,2018-04-24T18:45Z
+40,Tue Apr 24 2018,19:45,BST/+0100,Yeovil Town,0-0,0-0,Forest Green Rovers,2018-04-24T18:45Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Yeovil Town,2-3,1-0,Mansfield Town,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Accrington Stanley,1-0,1-0,Lincoln City,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Cheltenham Town,1-6,0-4,Coventry City,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Chesterfield FC,1-2,1-1,Wycombe Wanderers,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Colchester United,0-0,0-0,Swindon Town,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Crawley Town,1-2,1-1,Crewe Alexandra,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Grimsby Town,2-1,1-0,Notts County,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Luton Town,3-1,1-0,Forest Green Rovers,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Morecambe FC,0-1,0-0,Barnet FC,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Newport County,2-1,1-0,Cambridge United,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Port Vale FC,1-2,1-0,Carlisle United,2018-04-28T14:00Z
+45,Sat Apr 28 2018,15:00,BST/+0100,Stevenage FC,3-1,2-0,Exeter City,2018-04-28T14:00Z
+41,Tue May 1 2018,19:45,BST/+0100,Chesterfield FC,1-0,0-0,Newport County,2018-05-01T18:45Z
+46,Sat May 5 2018,15:00,BST/+0100,Barnet FC,3-0,1-0,Chesterfield FC,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Cambridge United,5-0,2-0,Port Vale FC,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Carlisle United,1-1,1-1,Newport County,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Coventry City,0-0,0-0,Morecambe FC,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Crewe Alexandra,2-1,1-1,Cheltenham Town,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Exeter City,1-0,0-0,Colchester United,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Forest Green Rovers,0-3,0-0,Grimsby Town,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Lincoln City,1-1,0-1,Yeovil Town,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Mansfield Town,1-1,0-1,Crawley Town,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Notts County,0-0,0-0,Luton Town,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Swindon Town,3-0,2-0,Accrington Stanley,2018-05-05T14:00Z
+46,Sat May 5 2018,15:00,BST/+0100,Wycombe Wanderers,1-0,1-0,Stevenage FC,2018-05-05T14:00Z

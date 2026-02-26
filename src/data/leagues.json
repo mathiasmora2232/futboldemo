@@ -1,0 +1,126 @@
+{
+  "leagues": [
+    {
+      "id": "PL",
+      "name": "Premier League",
+      "country": "England",
+      "region": "ENGLAND",
+      "season": 2025,
+      "enabled": false,
+      "teams": [
+        {"id": "MCY", "name": "Manchester City", "shortName": "MCI"},
+        {"id": "MNU", "name": "Manchester United", "shortName": "MNU"},
+        {"id": "LFC", "name": "Liverpool", "shortName": "LIV"},
+        {"id": "CFC", "name": "Chelsea", "shortName": "CHE"},
+        {"id": "ARS", "name": "Arsenal", "shortName": "ARS"},
+        {"id": "NEW", "name": "Newcastle United", "shortName": "NEW"},
+        {"id": "TOT", "name": "Tottenham", "shortName": "TOT"},
+        {"id": "BHA", "name": "Brighton", "shortName": "BHA"}
+      ]
+    },
+    {
+      "id": "CH",
+      "name": "Championship",
+      "country": "England",
+      "region": "ENGLAND",
+      "season": 2025,
+      "enabled": false,
+      "teams": [
+        {"id": "MFF", "name": "Middleborough", "shortName": "MID"},
+        {"id": "BFC", "name": "Bristol City", "shortName": "BRI"},
+        {"id": "LUT", "name": "Luton Town", "shortName": "LUT"},
+        {"id": "BPR", "name": "Blackburn", "shortName": "BLK"}
+      ]
+    },
+    {
+      "id": "LL",
+      "name": "La Liga",
+      "country": "Spain",
+      "region": "SPAIN",
+      "season": 2025,
+      "enabled": false,
+      "teams": [
+        {"id": "RMA", "name": "Real Madrid", "shortName": "RMA"},
+        {"id": "FCB", "name": "FC Barcelona", "shortName": "BAR"},
+        {"id": "ATM", "name": "Atlético Madrid", "shortName": "ATM"},
+        {"id": "RBS", "name": "Real Betis", "shortName": "BET"},
+        {"id": "SFC", "name": "Sevilla FC", "shortName": "SEV"},
+        {"id": "VAL", "name": "Valencia", "shortName": "VAL"}
+      ]
+    },
+    {
+      "id": "LMX",
+      "name": "Liga MX",
+      "country": "Mexico",
+      "region": "MEXICO",
+      "season": 2025,
+      "enabled": false,
+      "teams": [
+        {"id": "AME", "name": "Club América", "shortName": "AME"},
+        {"id": "GDL", "name": "Guadalajara", "shortName": "GDL"},
+        {"id": "MXC", "name": "México", "shortName": "MEX"},
+        {"id": "MTY", "name": "Monterrey", "shortName": "MTY"},
+        {"id": "PUM", "name": "Pumas", "shortName": "PUM"},
+        {"id": "TIG", "name": "Tigres", "shortName": "TIG"}
+      ]
+    },
+    {
+      "id": "LP",
+      "name": "LigaPro",
+      "country": "Ecuador",
+      "region": "ECUADOR",
+      "season": 2025,
+      "enabled": false,
+      "teams": [
+        {"id": "emelec", "name": "Emelec", "shortName": "EME"},
+        {"id": "barcelona", "name": "Barcelona SC", "shortName": "BAR"},
+        {"id": "ligadef", "name": "Liga de Quito", "shortName": "LDQ"},
+        {"id": "olmedo", "name": "Olmedo", "shortName": "OLM"}
+      ]
+    },
+    {
+      "id": "SB",
+      "name": "Serie B",
+      "country": "Ecuador",
+      "region": "ECUADOR",
+      "season": 2025,
+      "enabled": false,
+      "teams": [
+        {"id": "aucas", "name": "Aucas", "shortName": "AUC"},
+        {"id": "norte", "name": "Sociedad Norte", "shortName": "NOR"}
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "CL",
+      "name": "UEFA Champions League",
+      "type": "international",
+      "enabled": false
+    },
+    {
+      "id": "EL",
+      "name": "UEFA Europa League",
+      "type": "international",
+      "enabled": false
+    },
+    {
+      "id": "CDLB",
+      "name": "Copa Libertadores",
+      "type": "international",
+      "enabled": false
+    },
+    {
+      "id": "CDSU",
+      "name": "Copa Sudamericana",
+      "type": "international",
+      "enabled": false
+    },
+    {
+      "id": "RS",
+      "name": "Recopa Sudamericana",
+      "type": "international",
+      "enabled": false
+    }
+  ]
+}

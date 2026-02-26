@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Global Football Manager v3 - Professional Demo with Real Logos and Translations">
+    <meta name="keywords" content="football, manager, game, soccer, español, english">
+    <title>Global Football Manager v3 - Premium Edition</title>
+    
+    <!-- Estilos v3 -->
+    <link rel="stylesheet" href="assets/styles/main-v3.css">
+</head>
+<body>
+    <!-- ========================================
+         PANTALLA 1: MENÚ PRINCIPAL (v3)
+         ======================================== -->
+    <div id="mainMenu" class="screen">
+        <div class="main-menu-content">
+            <h1 class="game-logo">⚽ GLOBAL<br>FOOTBALL<br>MANAGER</h1>
+            <p class="logo-subtitle">v3.0 - PREMIUM EDITION</p>
+            
+            <div class="menu-buttons">
+                <button class="btn" id="btn-new-game">
+                    <span>▶ Nueva Partida</span>
+                </button>
+                <button class="btn" id="btn-load-game">
+                    <span>📂 Cargar Partida</span>
+                </button>
+                <button class="btn" id="btn-settings">
+                    <span>⚙ Ajustes</span>
+                </button>
+                <button class="btn btn-danger" id="btn-exit">
+                    <span>🔴 Salir</span>
+                </button>
+            </div>
+
+            <div style="margin-top: 60px; font-size: 0.85rem; color: var(--text-secondary); text-align: center;">
+                <p style="margin-bottom: 10px;">✨ Premium Edition with Real Team Logos & Multiязыage Support</p>
+                <p>© 2026 Global Football Manager - v3.0</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 2: SELECCIÓN DE LIGAS
+         ======================================== -->
+    <div id="leagueSelection" class="screen hidden">
+        <div class="container">
+            <div class="league-selection-content">
+                <h1 id="league-title">Selecciona las Ligas</h1>
+                <p id="league-subtitle" style="text-align: center; margin-bottom: 30px; color: var(--text-secondary);">
+                    Elige qué competencias deseas jugar
+                </p>
+
+                <div class="leagues-grid">
+                    <!-- INGLATERRA -->
+                    <div class="league-section">
+                        <h3>🇬🇧 INGLATERRA</h3>
+                        <label class="league-checkbox">
+                            <input type="checkbox" name="league-checkbox" value="PL">
+                            Premier League
+                        </label>
+                        <label class="league-checkbox">
+                            <input type="checkbox" name="league-checkbox" value="CH">
+                            Championship
+                        </label>
+                    </div>
+
+                    <!-- ESPAÑA -->
+                    <div class="league-section">
+                        <h3>🇪🇸 ESPAÑA</h3>
+                        <label class="league-checkbox">
+                            <input type="checkbox" name="league-checkbox" value="LL">
+                            La Liga
+                        </label>
+                    </div>
+
+                    <!-- MÉXICO -->
+                    <div class="league-section">
+                        <h3>🇲🇽 MÉXICO</h3>
+                        <label class="league-checkbox">
+                            <input type="checkbox" name="league-checkbox" value="LMX">
+                            Liga MX
+                        </label>
+                    </div>
+
+                    <!-- ECUADOR -->
+                    <div class="league-section">
+                        <h3>🇪🇨 ECUADOR</h3>
+                        <label class="league-checkbox">
+                            <input type="checkbox" name="league-checkbox" value="LP">
+                            LigaPro
+                        </label>
+                        <label class="league-checkbox">
+                            <input type="checkbox" name="league-checkbox" value="SB">
+                            Serie B
+                        </label>
+                    </div>
+                </div>
+
+                <div style="text-align: center; gap: 15px; display: flex; justify-content: center; flex-wrap: wrap;">
+                    <button class="btn" id="btn-confirm-leagues">✓ Confirmar</button>
+                    <button class="btn btn-secondary" id="btn-back-to-menu">← Atrás</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 3: SELECCIÓN DE EQUIPO
+         ======================================== -->
+    <div id="teamSelection" class="screen hidden">
+        <div class="container">
+            <div class="team-selection-content">
+                <h1>Selecciona tu Equipo</h1>
+                <p style="text-align: center; margin-bottom: 30px; color: var(--text-secondary);">
+                    Elige el club que dirigirás
+                </p>
+
+                <div id="teams-container"></div>
+
+                <div style="text-align: center;">
+                    <button class="btn btn-secondary" id="btn-back-team-selection" onclick="uiController.showScreen('leagueSelection')">
+                        ← Atrás
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 4: CARGAR PARTIDA
+         ======================================== -->
+    <div id="loadGame" class="screen hidden">
+        <div class="container">
+            <div class="load-game-content">
+                <h1>Cargar Partida</h1>
+                <p style="text-align: center; margin-bottom: 30px; color: var(--text-secondary);">
+                    Selecciona una partida guardada
+                </p>
+
+                <div id="save-slots-container"></div>
+
+                <div style="text-align: center;">
+                    <button class="btn btn-secondary" id="btn-back-to-menu-load" onclick="uiController.showScreen('mainMenu')">
+                        ← Atrás
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 5: JUEGO PRINCIPAL (v3)
+         ======================================== -->
+    <div id="mainGame" class="screen hidden">
+        <div class="container">
+            <div class="main-game-container">
+                <div class="game-header glass-card">
+                    <div class="player-info">
+                        <label>MANAGER</label>
+                        <p id="manager-name">-</p>
+                    </div>
+                    <div class="player-info">
+                        <label>CLUB</label>
+                        <p id="team-name">-</p>
+                    </div>
+                    <div class="player-info">
+                        <label>TEMPORADA</label>
+                        <p id="gameweek-info">Jornada: 1</p>
+                    </div>
+                </div>
+
+                <div class="game-actions" style="margin-top: 30px;">
+                    <button class="btn" id="btn-view-standings">📊 Ver Tabla</button>
+                    <button class="btn" id="btn-view-team">👥 Ver Plantilla</button>
+                    <button class="btn btn-success" id="btn-simulate-gameweek">▶ Simular Jornada</button>
+                    <button class="btn btn-secondary" id="btn-return-to-menu">← Menú Principal</button>
+                </div>
+
+                <div class="glass-card" style="margin-top: 40px;">
+                    <h3 style="margin-bottom: 15px; color: var(--accent-primary);">ℹ Información de la Demo v3</h3>
+                    <ul style="margin-top: 15px; line-height: 2; color: var(--text-secondary);">
+                        <li>✓ Simulación realista de partidos entre todos los equipos</li>
+                        <li>✓ Tabla de posiciones en tiempo real</li>
+                        <li>✓ Logos reales de los equipos principales</li>
+                        <li>✓ Soporte multiidioma (Español e Inglés)</li>
+                        <li>✓ Guardado automático en LocalStorage</li>
+                        <li>⚠ Próximas versiones: mercado de fichajes, tácticas avanzadas, más ligas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 6: TABLA DE POSICIONES
+         ======================================== -->
+    <div id="standings" class="screen hidden">
+        <div class="container">
+            <div class="standings-content">
+                <h1 style="margin-bottom: 30px;">📊 Tabla de Posiciones</h1>
+                <div id="standings-content"></div>
+            </div>
+
+            <button class="btn btn-secondary" id="btn-back-from-standings" style="margin-top: 20px;">
+                ← Atrás
+            </button>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 7: VISTA DEL EQUIPO
+         ======================================== -->
+    <div id="teamView" class="screen hidden">
+        <div class="container">
+            <div class="team-view-content">
+                <h1 style="margin-bottom: 30px;">👥 Plantilla del Equipo</h1>
+                <div id="team-players-content"></div>
+            </div>
+
+            <button class="btn btn-secondary" id="btn-back-from-team" style="margin-top: 20px;">
+                ← Atrás
+            </button>
+        </div>
+    </div>
+
+    <!-- ========================================
+         PANTALLA 8: AJUSTES (v3 Premium)
+         ======================================== -->
+    <div id="settings" class="screen hidden">
+        <div class="container">
+            <div class="settings-content">
+                <h1>⚙ Ajustes del Juego</h1>
+                
+                <!-- Idioma -->
+                <div class="setting-group">
+                    <label>🌐 Idioma / Language</label>
+                    <div class="language-buttons">
+                        <button class="lang-btn active" id="btn-lang-es">🇪🇸 Español</button>
+                        <button class="lang-btn" id="btn-lang-en">🇬🇧 English</button>
+                    </div>
+                </div>
+
+                <!-- Logos -->
+                <div class="setting-group">
+                    <label style="display: flex; gap: 10px; align-items: center; margin-bottom: 15px;">
+                        <input type="checkbox" id="toggle-logos" checked style="width: auto;">
+                        Mostrar Logos Reales de Equipos
+                    </label>
+                </div>
+
+                <!-- Dificultad -->
+                <div class="setting-group">
+                    <label>⚡ Dificultad</label>
+                    <select id="difficulty-select">
+                        <option value="easy">Fácil (100% dinero, -20% lesiones)</option>
+                        <option value="normal" selected>Normal (100% dinero, 100% lesiones)</option>
+                        <option value="hard">Difícil (80% dinero, +30% lesiones)</option>
+                    </select>
+                </div>
+
+                <!-- Información -->
+                <div class="glass-card" style="margin-top: 30px; background: rgba(51, 56, 255, 0.1); border-color: rgba(51, 56, 255, 0.3);">
+                    <h3 style="margin-bottom: 15px; color: var(--accent-tertiary);">ℹ️ Acerca de v3.0 Premium</h3>
+                    <p style="margin-bottom: 10px;">Edición mejorada con diseño Glassmorphism, soporte multiidioma, logos reales y traduccionesr completas.</p>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">
+                        Construido con HTML5 + CSS3 + ES6 JavaScript | Datos en JSON | LocalStorage Persistence
+                    </p>
+                </div>
+
+                <button class="btn btn-secondary" onclick="uiController.showScreen('mainMenu')" style="margin-top: 30px; width: 100%;">
+                    ← Atrás al Menú
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========================================
+         SCRIPTS (v3)
+         ======================================== -->
+    <!-- Config & Translations -->
+    <script src="src/config/i18n.js"></script>
+    <script src="src/config/config-handlers.js"></script>
+    
+    <!-- Game Modules -->
+    <script src="src/modules/SaveSystem.js"></script>
+    <script src="src/modules/LogoManager.js"></script>
+    <script src="src/modules/DataManager.js"></script>
+    <script src="src/modules/MatchEngine.js"></script>
+    <script src="src/modules/LeagueManager.js"></script>
+</html>
