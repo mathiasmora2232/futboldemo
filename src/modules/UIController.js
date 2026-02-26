@@ -60,6 +60,11 @@ class UIController {
       this.currentScreen = screenName;
       console.log(`📺 Pantalla: ${screenName}`);
       this.updateUITexts();
+
+      // Inicializar elementos específicos de pantallas
+      if (screenName === 'leagueSelection') {
+        setTimeout(() => this.initLeagueSelection(), 100);
+      }
     }
   }
 
@@ -146,6 +151,9 @@ class UIController {
     document.getElementById('btn-confirm-leagues')?.addEventListener('click', () => this.confirmLeagueSelection());
     document.getElementById('btn-back-to-menu')?.addEventListener('click', () => this.showScreen('mainMenu'));
 
+    // Team Selection
+    document.getElementById('btn-back-team-selection')?.addEventListener('click', () => this.showScreen('leagueSelection'));
+
     // Load Game
     this.updateLoadGameUI();
 
@@ -216,14 +224,83 @@ class UIController {
   }
 
   /**
+   * Inicia la selección de ligas con interfaz mejorada
+   */
+  initLeagueSelection() {
+    const leaguesData = [
+      { flag: '🇬🇧', country: 'INGLATERRA', leagues: [
+        { id: 'PL', name: 'Premier League' },
+        { id: 'CH', name: 'Championship' }
+      ]},
+      { flag: '🇪🇸', country: 'ESPAÑA', leagues: [
+        { id: 'LL', name: 'La Liga' }
+      ]},
+      { flag: '🇲🇽', country: 'MÉXICO', leagues: [
+        { id: 'LMX', name: 'Liga MX' }
+      ]},
+      { flag: '🇪🇨', country: 'ECUADOR', leagues: [
+        { id: 'LP', name: 'LigaPro' },
+        { id: 'SB', name: 'Serie B' }
+      ]}
+    ];
+
+    const container = document.getElementById('leagues-container');
+    if (!container) return;
+
+    container.innerHTML = '';
+    container.style.display = 'grid';
+    container.style.gridTemplateColumns = 'repeat(auto-fit, minmax(280px, 1fr))';
+    container.style.gap = '20px';
+    container.style.marginBottom = '30px';
+
+    leaguesData.forEach(country => {
+      const countrySection = document.createElement('div');
+      countrySection.className = 'glass-card';
+      countrySection.style.padding = '25px';
+      countrySection.style.cursor = 'pointer';
+      countrySection.style.transition = 'all 0.3s ease';
+      countrySection.style.borderRadius = '16px';
+
+      let leaguesHTML = `<h3 style="margin: 0 0 20px 0; font-size: 1.3rem;">${country.flag} ${country.country}</h3>`;
+      
+      country.leagues.forEach(league => {
+        leaguesHTML += `
+          <label style="display: flex; align-items: center; gap: 12px; margin: 12px 0; cursor: pointer; font-size: 1rem;">
+            <input type="checkbox" class="league-checkbox-new" value="${league.id}" style="width: 18px; height: 18px; cursor: pointer;">
+            <span>${league.name}</span>
+          </label>
+        `;
+      });
+
+      countrySection.innerHTML = leaguesHTML;
+      
+      // Hover effect
+      countrySection.addEventListener('mouseover', () => {
+        countrySection.style.transform = 'translateY(-5px)';
+        countrySection.style.boxShadow = '0 10px 30px rgba(51, 56, 255, 0.3)';
+      });
+      
+      countrySection.addEventListener('mouseout', () => {
+        countrySection.style.transform = 'translateY(0)';
+        countrySection.style.boxShadow = '';
+      });
+
+      container.appendChild(countrySection);
+    });
+
+    // Recargar event listeners
+    this.attachEventListeners();
+  }
+
+  /**
    * Confirma la selección de ligas
    */
   confirmLeagueSelection() {
-    const checkboxes = document.querySelectorAll('input[name="league-checkbox"]:checked');
+    const checkboxes = document.querySelectorAll('.league-checkbox-new:checked');
     const selectedLeagues = Array.from(checkboxes).map(cb => cb.value);
 
     if (selectedLeagues.length === 0) {
-      alert('Por favor, selecciona al menos una liga');
+      this.showNotification('⚠️ Selecciona al menos una liga', 2000);
       return;
     }
 
@@ -237,31 +314,69 @@ class UIController {
   }
 
   /**
-   * Renderiza la selección de equipos
+   * Renderiza la selección de equipos con interfaz moderna
    */
   renderTeamSelection() {
     const container = document.getElementById('teams-container');
     if (!container) return;
 
     container.innerHTML = '';
+    container.style.display = 'grid';
+    container.style.gridTemplateColumns = 'repeat(auto-fit, minmax(220px, 1fr))';
+    container.style.gap = '20px';
+    container.style.marginBottom = '30px';
+
     const teams = this.dataManager.getAllTeams();
 
+    if (teams.length === 0) {
+      container.innerHTML = '<p style="grid-column: 1/-1; text-align: center; color: var(--text-secondary); padding: 40px;">No hay equipos disponibles. Selecciona ligas primero.</p>';
+      return;
+    }
+
     teams.forEach(team => {
-      const teamDiv = document.createElement('div');
-      teamDiv.className = 'team-card';
-      
+      const teamCard = document.createElement('div');
+      teamCard.className = 'glass-card';
+      teamCard.style.padding = '20px';
+      teamCard.style.textAlign = 'center';
+      teamCard.style.cursor = 'pointer';
+      teamCard.style.transition = 'all 0.3s ease';
+      teamCard.style.display = 'flex';
+      teamCard.style.flexDirection = 'column';
+      teamCard.style.justifyContent = 'space-between';
+      teamCard.style.borderRadius = '16px';
+
       const avgOverall = this.dataManager.calculateTeamAverage(team.id);
       
-      teamDiv.innerHTML = `
-        <h4>${team.name}</h4>
-        <p><small>${team.league}</small></p>
-        <p><small>Overall: ${avgOverall}</small></p>
-        <button class="btn btn-small" onclick="uiController.startGameWithTeam('${team.id}', '${team.name}')">
-          Seleccionar
+      teamCard.innerHTML = `
+        <div>
+          <h4 style="margin: 0 0 10px 0; font-size: 1.1rem; color: var(--accent-primary);">${team.name}</h4>
+          <p style="margin: 5px 0; font-size: 0.85rem; color: var(--text-secondary);">${team.league}</p>
+          <div style="margin: 15px 0; font-size: 0.9rem;">
+            <span style="background: rgba(51, 56, 255, 0.2); padding: 5px 12px; border-radius: 8px; color: var(--accent-primary);">
+              ⭐ ${avgOverall}/100
+            </span>
+          </div>
+        </div>
+        <button class="btn btn-success" style="width: 100%; margin-top: 15px;">
+          Seleccionar ✓
         </button>
       `;
+
+      // Hover effect
+      teamCard.addEventListener('mouseover', () => {
+        teamCard.style.transform = 'translateY(-8px)';
+        teamCard.style.boxShadow = '0 15px 40px rgba(51, 56, 255, 0.4)';
+      });
       
-      container.appendChild(teamDiv);
+      teamCard.addEventListener('mouseout', () => {
+        teamCard.style.transform = 'translateY(0)';
+        teamCard.style.boxShadow = '';
+      });
+
+      // Click event
+      teamCard.addEventListener('click', () => this.startGameWithTeam(team.id, team.name));
+
+      container.appendChild(teamCard);
     });
   }
 

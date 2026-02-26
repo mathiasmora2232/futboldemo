@@ -50,60 +50,18 @@
     <div id="leagueSelection" class="screen hidden">
         <div class="container">
             <div class="league-selection-content">
-                <h1 id="league-title">Selecciona las Ligas</h1>
-                <p id="league-subtitle" style="text-align: center; margin-bottom: 30px; color: var(--text-secondary);">
+                <h1 id="league-title">⚽ Selecciona las Ligas</h1>
+                <p id="league-subtitle" style="text-align: center; margin-bottom: 40px; color: var(--text-secondary); font-size: 1.1rem;">
                     Elige qué competencias deseas jugar
                 </p>
 
-                <div class="leagues-grid">
-                    <!-- INGLATERRA -->
-                    <div class="league-section">
-                        <h3>🇬🇧 INGLATERRA</h3>
-                        <label class="league-checkbox">
-                            <input type="checkbox" name="league-checkbox" value="PL">
-                            Premier League
-                        </label>
-                        <label class="league-checkbox">
-                            <input type="checkbox" name="league-checkbox" value="CH">
-                            Championship
-                        </label>
-                    </div>
-
-                    <!-- ESPAÑA -->
-                    <div class="league-section">
-                        <h3>🇪🇸 ESPAÑA</h3>
-                        <label class="league-checkbox">
-                            <input type="checkbox" name="league-checkbox" value="LL">
-                            La Liga
-                        </label>
-                    </div>
-
-                    <!-- MÉXICO -->
-                    <div class="league-section">
-                        <h3>🇲🇽 MÉXICO</h3>
-                        <label class="league-checkbox">
-                            <input type="checkbox" name="league-checkbox" value="LMX">
-                            Liga MX
-                        </label>
-                    </div>
-
-                    <!-- ECUADOR -->
-                    <div class="league-section">
-                        <h3>🇪🇨 ECUADOR</h3>
-                        <label class="league-checkbox">
-                            <input type="checkbox" name="league-checkbox" value="LP">
-                            LigaPro
-                        </label>
-                        <label class="league-checkbox">
-                            <input type="checkbox" name="league-checkbox" value="SB">
-                            Serie B
-                        </label>
-                    </div>
+                <div class="leagues-grid-modern" id="leagues-container">
+                    <!-- Auto-generado por JavaScript -->
                 </div>
 
-                <div style="text-align: center; gap: 15px; display: flex; justify-content: center; flex-wrap: wrap;">
-                    <button class="btn" id="btn-confirm-leagues">✓ Confirmar</button>
-                    <button class="btn btn-secondary" id="btn-back-to-menu">← Atrás</button>
+                <div style="text-align: center; gap: 15px; display: flex; justify-content: center; flex-wrap: wrap; margin-top: 40px;">
+                    <button class="btn btn-success" id="btn-confirm-leagues">✓ Confirmar Selección</button>
+                    <button class="btn btn-secondary" id="btn-back-to-menu">← Atrás al Menú</button>
                 </div>
             </div>
         </div>
@@ -115,16 +73,16 @@
     <div id="teamSelection" class="screen hidden">
         <div class="container">
             <div class="team-selection-content">
-                <h1>Selecciona tu Equipo</h1>
-                <p style="text-align: center; margin-bottom: 30px; color: var(--text-secondary);">
-                    Elige el club que dirigirás
+                <h1>👥 Selecciona tu Equipo</h1>
+                <p style="text-align: center; margin-bottom: 40px; color: var(--text-secondary); font-size: 1.1rem;">
+                    Elige el club que dirigirás esta temporada
                 </p>
 
-                <div id="teams-container"></div>
+                <div id="teams-container" class="teams-grid-modern"></div>
 
-                <div style="text-align: center;">
-                    <button class="btn btn-secondary" id="btn-back-team-selection" onclick="uiController.showScreen('leagueSelection')">
-                        ← Atrás
+                <div style="text-align: center; margin-top: 40px;">
+                    <button class="btn btn-secondary" id="btn-back-team-selection">
+                        ← Volver a Ligas
                     </button>
                 </div>
             </div>
