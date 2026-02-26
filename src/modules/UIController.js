@@ -67,18 +67,36 @@ class UIController {
    * Actualiza todos los textos de UI según idioma
    */
   updateUITexts() {
-    // Actualizar textos del botón de nuevo juego
+    // Main Menu
     const btnNewGame = document.getElementById('btn-new-game');
-    if (btnNewGame) btnNewGame.textContent = i18n.t('menu.newGame');
+    if (btnNewGame) {
+      const span = btnNewGame.querySelector('span');
+      if (span) span.textContent = '▶ ' + i18n.t('menu.newGame');
+    }
 
     const btnLoadGame = document.getElementById('btn-load-game');
-    if (btnLoadGame) btnLoadGame.textContent = i18n.t('menu.loadGame');
+    if (btnLoadGame) {
+      const span = btnLoadGame.querySelector('span');
+      if (span) span.textContent = '📂 ' + i18n.t('menu.loadGame');
+    }
 
     const btnSettings = document.getElementById('btn-settings');
-    if (btnSettings) btnSettings.textContent = i18n.t('menu.settings');
+    if (btnSettings) {
+      const span = btnSettings.querySelector('span');
+      if (span) span.textContent = '⚙ ' + i18n.t('menu.settings');
+    }
+
+    const btnChangelog = document.getElementById('btn-changelog');
+    if (btnChangelog) {
+      const span = btnChangelog.querySelector('span');
+      if (span) span.textContent = '📝 ' + 'Changelog';
+    }
 
     const btnExit = document.getElementById('btn-exit');
-    if (btnExit) btnExit.textContent = i18n.t('menu.exit');
+    if (btnExit) {
+      const span = btnExit.querySelector('span');
+      if (span) span.textContent = '🔴 ' + i18n.t('menu.exit');
+    }
   }
 
   /**
