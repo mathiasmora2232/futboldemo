@@ -314,7 +314,7 @@ class UIController {
   }
 
   /**
-   * Renderiza la selección de equipos con interfaz moderna
+   * Renderiza la selección de equipos con interfaz moderna e imágenes
    */
   renderTeamSelection() {
     const container = document.getElementById('teams-container');
@@ -322,7 +322,7 @@ class UIController {
 
     container.innerHTML = '';
     container.style.display = 'grid';
-    container.style.gridTemplateColumns = 'repeat(auto-fit, minmax(220px, 1fr))';
+    container.style.gridTemplateColumns = 'repeat(auto-fit, minmax(240px, 1fr))';
     container.style.gap = '20px';
     container.style.marginBottom = '30px';
 
@@ -336,36 +336,72 @@ class UIController {
     teams.forEach(team => {
       const teamCard = document.createElement('div');
       teamCard.className = 'glass-card';
-      teamCard.style.padding = '20px';
-      teamCard.style.textAlign = 'center';
+      teamCard.style.padding = '0';
+      teamCard.style.overflow = 'hidden';
       teamCard.style.cursor = 'pointer';
       teamCard.style.transition = 'all 0.3s ease';
+      teamCard.style.borderRadius = '16px';
       teamCard.style.display = 'flex';
       teamCard.style.flexDirection = 'column';
-      teamCard.style.justifyContent = 'space-between';
-      teamCard.style.borderRadius = '16px';
 
+      // Obtener datos de jugadores (esto generará datos si no existen)
       const avgOverall = this.dataManager.calculateTeamAverage(team.id);
       
+      // Generar emoji/logo visual basado en el equipo
+      const teamEmoji = this.getTeamEmoji(team.name);
+      const teamColor = this.generateTeamColor(team.name);
+
       teamCard.innerHTML = `
-        <div>
-          <h4 style="margin: 0 0 10px 0; font-size: 1.1rem; color: var(--accent-primary);">${team.name}</h4>
-          <p style="margin: 5px 0; font-size: 0.85rem; color: var(--text-secondary);">${team.league}</p>
-          <div style="margin: 15px 0; font-size: 0.9rem;">
-            <span style="background: rgba(51, 56, 255, 0.2); padding: 5px 12px; border-radius: 8px; color: var(--accent-primary);">
-              ⭐ ${avgOverall}/100
-            </span>
+        <div style="
+          background: linear-gradient(135deg, ${teamColor} 0%, ${this.lightenColor(teamColor)} 100%);
+          padding: 30px 20px;
+          text-align: center;
+          color: white;
+          text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        ">
+          <div style="font-size: 3.5rem; margin-bottom: 12px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));">
+            ${teamEmoji}
           </div>
+          <h4 style="margin: 0; font-size: 1.1rem; font-weight: bold;">${team.name}</h4>
+          <p style="margin: 5px 0 0 0; font-size: 0.85rem; opacity: 0.9;">${team.league}</p>
         </div>
-        <button class="btn btn-success" style="width: 100%; margin-top: 15px;">
-          Seleccionar ✓
-        </button>
+        
+        <div style="padding: 20px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="margin: 12px 0; text-align: center;">
+              <span style="
+                background: ${teamColor};
+                color: white;
+                padding: 8px 16px;
+                border-radius: 20px;
+                font-weight: bold;
+                font-size: 1.1rem;
+                display: inline-block;
+              ">⭐ ${avgOverall}/100</span>
+            </div>
+            <div style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 12px; line-height: 1.6;">
+              <p style="margin: 0;">📊 Liga: ${team.leagueId}</p>
+              <p style="margin: 5px 0 0 0;">👥 Squad: 11 jugadores</p>
+            </div>
+          </div>
+          
+          <button class="btn btn-success" style="
+            width: 100%;
+            margin-top: 15px;
+            background: ${teamColor};
+            border: none;
+            color: white;
+            font-weight: bold;
+          ">
+            Seleccionar ✓
+          </button>
+        </div>
       `;
 
       // Hover effect
       teamCard.addEventListener('mouseover', () => {
-        teamCard.style.transform = 'translateY(-8px)';
-        teamCard.style.boxShadow = '0 15px 40px rgba(51, 56, 255, 0.4)';
+        teamCard.style.transform = 'translateY(-10px)';
+        teamCard.style.boxShadow = `0 20px 50px ${teamColor}40`;
       });
       
       teamCard.addEventListener('mouseout', () => {
@@ -378,6 +414,90 @@ class UIController {
 
       container.appendChild(teamCard);
     });
+  }
+
+  /**
+   * Obtiene emoji para equipo según su nombre
+   */
+  getTeamEmoji(teamName) {
+    const emojiMap = {
+      // Españoles
+      'Real Madrid': '👑', 'Barcelona': '🦁', 'Atletico': '📍', 'Sevilla': '⚔️',
+      'Valencia': '🌶️', 'Athletic': '⚽', 'Villarreal': '💛', 'Real Sociedad': '🔵',
+      
+      // Ingleses
+      'Manchester City': '💙', 'Liverpool': '🔴', 'Chelsea': '🔵', 'Arsenal': '❤️',
+      'Tottenham': '⚪', 'Manchester United': '😈', 'Newcastle': '⬛', 'Brighton': '⚪',
+      
+      // Italianos
+      'Inter': '🔵', 'Milan': '🔴', 'Juventus': '⬛', 'Roma': '🟡', 'Lazio': '💙',
+      
+      // Franceses
+      'PSG': '🔴', 'Monaco': '❤️', 'Lyon': '⚪', 'Marseille': '💙',
+      
+      // Alemanes
+      'Bayern Munich': '❌', 'Dortmund': '💛', 'RB Leipzig': '⚪', 'Schalke': '⚰️',
+      
+      // Polaco (lo que está viendo el usuario)
+      'Legia': '⚪', 'Lech Poznan': '⬜', 'Gornik Zabrze': '⬛', 'Pogon Szczecin': '🔴',
+      'Cracovia': '❌', 'Ruch Chorzow': '⚫', 'Slask Wroclaw': '🟠', 'Warta Poznan': '🟢',
+      'Jagiellonia': '🔵', 'Radomiak Radom': '🟤', 'Korona Kielce': '👑', 'Zaglebie': '🟠',
+      'Piast Gliwice': '⚪', 'Rakow': '🔴', 'Puszcza': '🟢', 'LKS Lodz': '🔴', 'Widzew Lodz': '🔵',
+      'Stal Mielec': '🟠',
+      
+      // Latam
+      'Liga MX': '🇲🇽', 'LigaPro': '🇪🇨', 'Serie B': '🇪🇨',
+    };
+    return emojiMap[teamName] || '⚽';
+  }
+
+  /**
+   * Genera color para equipo
+   */
+  generateTeamColor(teamName) {
+    const colors = {
+      // Españoles
+      'Real Madrid': '#FFFFFF', 'Barcelona': '#004A9F', 'Atletico': '#E63946',
+      'Sevilla': '#FF0000', 'Valencia': '#F4AA1F', 'Athletic': '#FF0000',
+      'Villarreal': '#FFD700', 'Real Sociedad': '#0099FF',
+      
+      // Ingleses
+      'Manchester City': '#6BB6FF', 'Liverpool': '#E31936', 'Chelsea': '#034694',
+      'Arsenal': '#EF0107', 'Tottenham': '#FFFFFF', 'Manchester United': '#DA291C',
+      'Newcastle': '#241F20', 'Brighton': '#0057B8',
+      
+      // Italianos
+      'Inter': '#0055CC', 'Milan': '#E41E3F', 'Juventus': '#000000',
+      'Roma': '#FCDC00', 'Lazio': '#7DD5F7',
+      
+      // Por defecto aleatorio basado en nombre
+      'default': this.hashToColor(teamName)
+    };
+    return colors[teamName] || colors['default'];
+  }
+
+  /**
+   * Convierte nombre en color hexadecimal
+   */
+  hashToColor(str) {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+      hash = str.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const hue = hash % 360;
+    return `hsl(${hue}, 70%, 45%)`;
+  }
+
+  /**
+   * Aclara un color hexadecimal
+   */
+  lightenColor(color) {
+    // Si es hsl, convertir; si es hexadecimal, aclarar
+    if (color.startsWith('hsl')) {
+      return color.replace('45%', '60%');
+    }
+    // Para hexadecimal simple
+    return color;
   }
 
   /**

@@ -179,7 +179,28 @@ class DataManager {
    * Obtiene los jugadores de un equipo
    */
   getTeamPlayers(teamId) {
-    return this.playersData?.players[teamId] || [];
+    const players = this.playersData?.players[teamId];
+    
+    // Si existen datos, retornarlos
+    if (players && Array.isArray(players) && players.length > 0) {
+      return players;
+    }
+    
+    // Si no existen, generar equipo sobre la marcha usando TeamGenerator
+    if (typeof TeamGenerator !== 'undefined') {
+      const team = this.getAllTeams().find(t => t.id === teamId);
+      if (team) {
+        console.log(`🎲 Generando squad para ${team.name}...`);
+        const generatedSquad = TeamGenerator.generateTeamSquad(teamId, team.name, team.league);
+        // Cachear para futuras consultas
+        if (!this.playersData.players[teamId]) {
+          this.playersData.players[teamId] = generatedSquad;
+        }
+        return generatedSquad;
+      }
+    }
+    
+    return [];
   }
 
   /**
